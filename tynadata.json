@@ -1,0 +1,1204 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "qsdd-gb3s",
+      "name" : "MTA 2025-2044 20-Year Needs Assessment Asset Condition",
+      "assetType" : "dataset",
+      "attribution" : "Metropolitan Transportation Authority",
+      "attributionLink" : "https://www.mta.info/open-data",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1697806265,
+      "description" : "The 2025-2044 20-Year Needs Assessment is a broad, comprehensive blueprint that outlines the MTA region's transportation capital needs for the next generation. It provides an extensive, long-term view based upon rigorous data analysis across all the MTA agencies. The MTA developed a three-part plan to for the next 20 years to achieve the transit network New Yorkers deserve. It is based on three fundamental ideas: rebuild the foundation of the system to ensure its survival, improve our network to meet 21st century needs, and expand to support future growth. This dataset includes data on the conditions of most assets in the MTA system.",
+      "displayType" : "table",
+      "downloadCount" : 500,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "locked" : false,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 40089676,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1697807046,
+      "publicationGroup" : 19333710,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1707762102,
+      "rowsUpdatedBy" : "xzik-pf59",
+      "tableId" : 19333710,
+      "totalTimesRated" : 0,
+      "viewCount" : 1366,
+      "viewLastModified" : 1719505463,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1698238455,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 5871319,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1698238455,
+        "targetAudience" : "public",
+        "workflowId" : 2254,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1698238455,
+          "failureCount" : 0,
+          "startedAt" : 1698238455,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "m7m8-qafi",
+          "displayName" : "Open Data Administrator 2"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 583305553,
+        "name" : "Agency",
+        "dataTypeName" : "text",
+        "description" : "Agency within the MTA (NYCT, MNR, LIRR, MTA PD, B&T).",
+        "fieldName" : "agency",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366144,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "NYCT",
+          "null" : "0",
+          "top" : [ {
+            "item" : "NYCT",
+            "count" : "154"
+          }, {
+            "item" : "MNR",
+            "count" : "127"
+          }, {
+            "item" : "LIRR",
+            "count" : "122"
+          }, {
+            "item" : "B&T",
+            "count" : "38"
+          }, {
+            "item" : "MTA PD",
+            "count" : "10"
+          } ],
+          "smallest" : "B&T",
+          "count" : "451",
+          "cardinality" : "5"
+        },
+        "format" : {
+          "align" : "center"
+        }
+      }, {
+        "id" : 583305552,
+        "name" : "Asset Category",
+        "dataTypeName" : "text",
+        "description" : "The category for the asset component, such as Shops and Yards, Power, or Bridges.",
+        "fieldName" : "asset_category",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366143,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "Work trains and service vehicles",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Shops, yards, and facilities",
+            "count" : "50"
+          }, {
+            "item" : "Shops and yards",
+            "count" : "36"
+          }, {
+            "item" : "Power",
+            "count" : "33"
+          }, {
+            "item" : "Bridges",
+            "count" : "28"
+          }, {
+            "item" : "Work trains and service vehicles",
+            "count" : "25"
+          }, {
+            "item" : "Line structures",
+            "count" : "24"
+          }, {
+            "item" : "Track",
+            "count" : "21"
+          }, {
+            "item" : "Penn Station",
+            "count" : "21"
+          }, {
+            "item" : "Signals",
+            "count" : "20"
+          }, {
+            "item" : "Stations",
+            "count" : "17"
+          }, {
+            "item" : "Grand Central Artery",
+            "count" : "17"
+          }, {
+            "item" : "Public communications and security",
+            "count" : "16"
+          }, {
+            "item" : "Traction power",
+            "count" : "14"
+          }, {
+            "item" : "Depot and bus maintenance facilities",
+            "count" : "14"
+          }, {
+            "item" : "Passenger stations",
+            "count" : "12"
+          }, {
+            "item" : "Communication Infrastructure",
+            "count" : "11"
+          }, {
+            "item" : "Communication infrastructure and systems",
+            "count" : "11"
+          }, {
+            "item" : "Tunnels",
+            "count" : "10"
+          }, {
+            "item" : "Communication infrastructure",
+            "count" : "9"
+          }, {
+            "item" : "Grand Central Terminal",
+            "count" : "9"
+          } ],
+          "smallest" : "Accessibility, Elevators, and Escalators",
+          "count" : "451",
+          "cardinality" : "29"
+        },
+        "format" : { }
+      }, {
+        "id" : 583305551,
+        "name" : "Asset",
+        "dataTypeName" : "text",
+        "description" : "The specific asset type within the category, such as MOW Shops. For many asset components, this is the same as Asset Category.",
+        "fieldName" : "asset",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366142,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "Yards and Yard Assets",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Power",
+            "count" : "33"
+          }, {
+            "item" : "Work trains and service vehicles",
+            "count" : "25"
+          }, {
+            "item" : "Track",
+            "count" : "21"
+          }, {
+            "item" : "Signals",
+            "count" : "20"
+          }, {
+            "item" : "Public communications and security",
+            "count" : "16"
+          }, {
+            "item" : "Line structures",
+            "count" : "15"
+          }, {
+            "item" : "Depot and bus maintenance facilities",
+            "count" : "14"
+          }, {
+            "item" : "Passenger stations",
+            "count" : "12"
+          }, {
+            "item" : "Communication Infrastructure",
+            "count" : "11"
+          }, {
+            "item" : "Train Shed",
+            "count" : "10"
+          }, {
+            "item" : "Shops",
+            "count" : "10"
+          }, {
+            "item" : "Employee Facility",
+            "count" : "9"
+          }, {
+            "item" : "Platform components",
+            "count" : "9"
+          }, {
+            "item" : "MOE Shops",
+            "count" : "9"
+          }, {
+            "item" : "Signals and train control",
+            "count" : "9"
+          }, {
+            "item" : "Grand Central Terminal",
+            "count" : "9"
+          }, {
+            "item" : "Communication infrastructure",
+            "count" : "9"
+          }, {
+            "item" : "Railcar Maintenance Shops (15 Shops)",
+            "count" : "8"
+          }, {
+            "item" : "Station Communication Systems",
+            "count" : "8"
+          }, {
+            "item" : "Station Structures and Components",
+            "count" : "8"
+          } ],
+          "smallest" : "Accessibility, Elevators, and Escalators",
+          "count" : "451",
+          "cardinality" : "62"
+        },
+        "format" : { }
+      }, {
+        "id" : 583305550,
+        "name" : "Asset Sub-Category/Components",
+        "dataTypeName" : "text",
+        "description" : "The specific asset component, such as HVAC, Weld Car, or Platform Edges.",
+        "fieldName" : "asset_sub_category_components",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366141,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "Yard Utilities",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Utilities",
+            "count" : "11"
+          }, {
+            "item" : "Buildings",
+            "count" : "10"
+          }, {
+            "item" : "Structures",
+            "count" : "9"
+          }, {
+            "item" : "Employee Facilities",
+            "count" : "8"
+          }, {
+            "item" : "Roadways and Decks",
+            "count" : "7"
+          }, {
+            "item" : "HVAC",
+            "count" : "6"
+          }, {
+            "item" : "Electrical",
+            "count" : "5"
+          }, {
+            "item" : "Roof",
+            "count" : "5"
+          }, {
+            "item" : "Elevators",
+            "count" : "4"
+          }, {
+            "item" : "Building Structure",
+            "count" : "4"
+          }, {
+            "item" : "Modernized signaling status",
+            "count" : "3"
+          }, {
+            "item" : "Lighting",
+            "count" : "3"
+          }, {
+            "item" : "Plumbing (sanitary waste, drainage, etc.)",
+            "count" : "3"
+          }, {
+            "item" : "Heavy Shop Equipment",
+            "count" : "3"
+          }, {
+            "item" : "Fire Protection, Security",
+            "count" : "3"
+          }, {
+            "item" : "Exterior",
+            "count" : "3"
+          }, {
+            "item" : "Elevated steel structure paint status",
+            "count" : "3"
+          }, {
+            "item" : "Overall",
+            "count" : "2"
+          }, {
+            "item" : "Elevated",
+            "count" : "2"
+          }, {
+            "item" : "Grade Crossing",
+            "count" : "2"
+          } ],
+          "smallest" : "3rd Rail - Aluminum",
+          "count" : "451",
+          "cardinality" : "354"
+        },
+        "format" : { }
+      }, {
+        "id" : 583305549,
+        "name" : "Total",
+        "dataTypeName" : "text",
+        "description" : "The total number of each asset component. For Bridges & Tunnels data, this is N/A.",
+        "fieldName" : "total",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366140,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "N/A",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N/A",
+            "count" : "38"
+          }, {
+            "item" : "15",
+            "count" : "16"
+          }, {
+            "item" : "1",
+            "count" : "14"
+          }, {
+            "item" : "3",
+            "count" : "12"
+          }, {
+            "item" : "29",
+            "count" : "11"
+          }, {
+            "item" : "2",
+            "count" : "11"
+          }, {
+            "item" : "8",
+            "count" : "11"
+          }, {
+            "item" : "12",
+            "count" : "9"
+          }, {
+            "item" : "38",
+            "count" : "9"
+          }, {
+            "item" : "6",
+            "count" : "8"
+          }, {
+            "item" : "4",
+            "count" : "8"
+          }, {
+            "item" : "5",
+            "count" : "7"
+          }, {
+            "item" : "19",
+            "count" : "7"
+          }, {
+            "item" : "17",
+            "count" : "6"
+          }, {
+            "item" : "9",
+            "count" : "6"
+          }, {
+            "item" : "10",
+            "count" : "5"
+          }, {
+            "item" : "16",
+            "count" : "5"
+          }, {
+            "item" : "14",
+            "count" : "5"
+          }, {
+            "item" : "39",
+            "count" : "5"
+          }, {
+            "item" : "23",
+            "count" : "4"
+          } ],
+          "smallest" : "0.2",
+          "count" : "451",
+          "cardinality" : "232"
+        },
+        "format" : {
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "center"
+        }
+      }, {
+        "id" : 583305548,
+        "name" : "Units",
+        "dataTypeName" : "text",
+        "description" : "The type of unit for each asset component (Each, Miles, Linear Feet, Square Feet, Structure, Systems, Spans, or N/A).",
+        "fieldName" : "units",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366139,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "Track Miles",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Each",
+            "count" : "327"
+          }, {
+            "item" : "Miles",
+            "count" : "48"
+          }, {
+            "item" : "N/A",
+            "count" : "38"
+          }, {
+            "item" : "Systems",
+            "count" : "11"
+          }, {
+            "item" : "Linear Feet",
+            "count" : "8"
+          }, {
+            "item" : "System",
+            "count" : "6"
+          }, {
+            "item" : "Square Feet",
+            "count" : "3"
+          }, {
+            "item" : "Structure",
+            "count" : "2"
+          }, {
+            "item" : "Sets",
+            "count" : "2"
+          }, {
+            "item" : "Feet",
+            "count" : "2"
+          }, {
+            "item" : "Rail miles",
+            "count" : "1"
+          }, {
+            "item" : "Spans",
+            "count" : "1"
+          }, {
+            "item" : "Segments",
+            "count" : "1"
+          }, {
+            "item" : "Track Miles",
+            "count" : "1"
+          } ],
+          "smallest" : "Each",
+          "count" : "451",
+          "cardinality" : "14"
+        },
+        "format" : { }
+      }, {
+        "id" : 583305547,
+        "name" : "Condition Criteria",
+        "dataTypeName" : "text",
+        "description" : "The criteria by which the condition of the asset is described.",
+        "fieldName" : "condition_criteria",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 149366138,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "Percent with Remaining Life Less Than 6 Years",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Percent in Poor/Marginal Condition",
+            "count" : "364"
+          }, {
+            "item" : "Needs update/replacement",
+            "count" : "38"
+          }, {
+            "item" : "Percent Beyond Useful Life",
+            "count" : "25"
+          }, {
+            "item" : "Percent with Remaining Life Less Than 6 Years",
+            "count" : "8"
+          }, {
+            "item" : "Percent Due for Replacement",
+            "count" : "6"
+          }, {
+            "item" : "Percentage of Miles with High Defect Concentration",
+            "count" : "5"
+          }, {
+            "item" : "In Construction or to be Awarded by 2024",
+            "count" : "1"
+          }, {
+            "item" : "Conventional Fixed Block",
+            "count" : "1"
+          }, {
+            "item" : "Percent in Good Condition",
+            "count" : "1"
+          }, {
+            "item" : "Modernization complete",
+            "count" : "1"
+          }, {
+            "item" : "Percent Under Construction",
+            "count" : "1"
+          } ],
+          "smallest" : "Conventional Fixed Block",
+          "count" : "451",
+          "cardinality" : "11"
+        },
+        "format" : { }
+      }, {
+        "id" : 583305546,
+        "name" : "Condition Criteria Percent",
+        "dataTypeName" : "number",
+        "description" : "The percent of each asset component that meets the given criteria.",
+        "fieldName" : "condition_criteria_percent",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 149366137,
+        "cachedContents" : {
+          "non_null" : "451",
+          "largest" : "1",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "63"
+          }, {
+            "item" : "1",
+            "count" : "48"
+          }, {
+            "item" : "0.13",
+            "count" : "19"
+          }, {
+            "item" : "0.5",
+            "count" : "11"
+          }, {
+            "item" : "0.11",
+            "count" : "11"
+          }, {
+            "item" : "0.33",
+            "count" : "10"
+          }, {
+            "item" : "0.07",
+            "count" : "10"
+          }, {
+            "item" : "0.19",
+            "count" : "10"
+          }, {
+            "item" : "0.24",
+            "count" : "9"
+          }, {
+            "item" : "0.26",
+            "count" : "8"
+          }, {
+            "item" : "0.17",
+            "count" : "8"
+          }, {
+            "item" : "0.29",
+            "count" : "7"
+          }, {
+            "item" : "0.45",
+            "count" : "7"
+          }, {
+            "item" : "0.69",
+            "count" : "7"
+          }, {
+            "item" : "0.39",
+            "count" : "7"
+          }, {
+            "item" : "0.2",
+            "count" : "7"
+          }, {
+            "item" : "0.02",
+            "count" : "6"
+          }, {
+            "item" : "0.05",
+            "count" : "6"
+          }, {
+            "item" : "0.15",
+            "count" : "6"
+          }, {
+            "item" : "0.08",
+            "count" : "5"
+          } ],
+          "smallest" : "0",
+          "count" : "451",
+          "cardinality" : "86"
+        },
+        "format" : {
+          "precisionStyle" : "percentage",
+          "percentScale" : "1",
+          "decimalSeparator" : ".",
+          "groupSeparator" : ",",
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "attachments" : [ {
+          "filename" : "MTA_2025-2044_NeedsAssessmentAssetConditions_Overview.pdf",
+          "assetId" : "8a760a20-6cfa-4d7b-9a88-b16488c50424",
+          "name" : "MTA_2025-2044_NeedsAssessmentAssetConditions_Overview.pdf"
+        }, {
+          "filename" : "MTA_2025-2044_NeedsAssessmentAssetConditions_DataDictionary.pdf",
+          "assetId" : "fd3c079c-51b2-47d9-aa96-7a764b4a95b5",
+          "name" : "MTA_2025-2044_NeedsAssessmentAssetConditions_DataDictionary.pdf"
+        } ],
+        "custom_fields" : {
+          "Dataset Summary" : {
+            "Posting Frequency" : "Static – Not Updated",
+            "Organization" : "Metropolitan Transportation Authority",
+            "Contact Information" : "OpenData@mtahq.org",
+            "Time Period" : "October 1, 2023",
+            "Coverage" : "New York Metropolitan Area",
+            "Granularity" : "Agency, Asset",
+            "Dataset Owner" : "Metropolitan Transportation Authority"
+          },
+          "Common Core" : {
+            "Contact Email" : "OpenData@mtahq.org"
+          },
+          "Additional Resources" : {
+            "See Also " : "https://future.mta.info/",
+            "See Also" : "http://metrics.mta.info/"
+          },
+          "Dataset Information" : {
+            "Agency" : "Metropolitan Transportation Authority"
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xzik-pf59",
+        "displayName" : "NY Open Data",
+        "profileImageUrlLarge" : "/api/users/xzik-pf59/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/xzik-pf59/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/xzik-pf59/profile_images/TINY",
+        "screenName" : "NY Open Data",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "mta bus", "mtabc", "new york city transit", "nyct", "bus", "subway", "staten island railway", "sir", "long island rail road", "lirr", "metro-north railroad", "mnr", "metro-north", "mta police", "mta police department", "mta pd", "mta bridges & tunnels", "bridges & tunnels", "b&t", "needs assessment", "capital plan", "capital program", "asset conditions" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-kfqu-vdka.6zwj", "00000000-0000-0000-F16E-60D83A4A0C2F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Roof", "15", "Each", "Percent in Poor/Marginal Condition", "0.47" ]
+, [ "row-jagi~mv4r_arry", "00000000-0000-0000-47D5-79CE4E13E840", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "HVAC", "15", "Each", "Percent in Poor/Marginal Condition", "0.47" ]
+, [ "row-9bjr~xhsh_wnfq", "00000000-0000-0000-36E5-C238CA811293", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Exterior", "15", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-ihvg-xnit~jywv", "00000000-0000-0000-D974-E6D15E0C1A05", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Building Structure", "15", "Each", "Percent in Poor/Marginal Condition", "0.73" ]
+, [ "row-fq5v_9sx3~akn4", "00000000-0000-0000-29ED-182275168CD7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Electrical", "15", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-9g2v.fehj_5g9z", "00000000-0000-0000-56B7-F02CB1119553", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Elevators", "8", "Each", "Percent in Poor/Marginal Condition", "0.63" ]
+, [ "row-kpy8_vs5r.8kc6", "00000000-0000-0000-E199-9BFE20025C8F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Employee Facilities", "15", "Each", "Percent in Poor/Marginal Condition", "0.8" ]
+, [ "row-fyfy~edbb~r7ht", "00000000-0000-0000-E0DE-8CFCDBC4135A", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Maintenance Shops (15 Shops)", "Heavy Shop Equipment", "41", "Each", "Percent in Poor/Marginal Condition", "0.1" ]
+, [ "row-fnkm.bdpf.bmi3", "00000000-0000-0000-98CA-8914309885E7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Roof", "15", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-s6ux~cgqj~tart", "00000000-0000-0000-291D-FB5E7E6D68D9", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "HVAC", "15", "Each", "Percent in Poor/Marginal Condition", "0.67" ]
+, [ "row-dnd4-mcfv.bew9", "00000000-0000-0000-E04A-ACBFF6B497A6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Exterior", "15", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-cv7q.v9fa-tst9", "00000000-0000-0000-7F2F-8176197F0860", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Building Structure", "15", "Each", "Percent in Poor/Marginal Condition", "0.73" ]
+, [ "row-grt5_zyxj.hfgj", "00000000-0000-0000-B349-9A26129D2A60", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Electrical", "15", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-35vv.7cn8.jkdz", "00000000-0000-0000-F4E7-7421BD50D558", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Elevators", "12", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-kcps.3u9b.y2kd", "00000000-0000-0000-8107-E0AD551C05D4", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Employee Facilities", "15", "Each", "Percent in Poor/Marginal Condition", "0.47" ]
+, [ "row-r7d6~uzwr_tgwz", "00000000-0000-0000-7B62-1607FA9A6F1F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Railcar Overhaul Shops (2 Overhaul Complexes, 15 Sub-shops)", "Heavy Shop Equipment", "246", "Each", "Percent in Poor/Marginal Condition", "0.36" ]
+, [ "row-yfwz~edcr_wrq2", "00000000-0000-0000-1064-C6427DBB2496", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "CCTV", "2", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-agwj-5hiz.dwdh", "00000000-0000-0000-785F-C91B39648A53", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Fencing", "24", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-krvj~t8y3-j6mx", "00000000-0000-0000-6EBF-D82610189E2B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Hydrants", "24", "Each", "Percent in Poor/Marginal Condition", "0.08" ]
+, [ "row-f287-rkuw-9jsb", "00000000-0000-0000-616D-B08B68197817", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Lighting", "24", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-henu~mkwf-yw9p", "00000000-0000-0000-D68A-1FCF82DA0847", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Yard Track", "102", "Miles", "Percent in Poor/Marginal Condition", "0.25" ]
+, [ "row-w6xa.pcfr~wkdb", "00000000-0000-0000-EDF4-8DCBDB0FC30B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Yard Signal", "23", "Each", "Percent in Poor/Marginal Condition", "0.42" ]
+, [ "row-9e43-y9pa_22im", "00000000-0000-0000-8A13-9B3A85DB0794", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Rail Storage Yards (24 Rail Yards)", "Yard Switch", "874", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-sux7-xrif-wed6", "00000000-0000-0000-655D-97204639CBCD", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Car Washer (8 Car Washers)", "Enclosures", "8", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-jxzg_m4k9-yfti", "00000000-0000-0000-4D16-575D06F42B79", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Car Washer (8 Car Washers)", "Equipment", "8", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-7efi~7tfm-p7n7", "00000000-0000-0000-58E9-3600CB20BE92", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Car Washer (8 Car Washers)", "Lighting", "8", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-dens.2tph~c9x8", "00000000-0000-0000-7AAA-78D3F7CB88F7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Car Washer (8 Car Washers)", "Electrical", "8", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-tntn.pphg~s4ei", "00000000-0000-0000-0F9F-5841C59DC468", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Car Washer (8 Car Washers)", "Plumbing and Drain", "8", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-uhgp_3yh4_fiby", "00000000-0000-0000-F76E-1E1F16A605B9", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Roof", "29", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-fjmz_4kd9-t7m8", "00000000-0000-0000-8B8B-56DE704B63A6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "HVAC", "29", "Each", "Percent in Poor/Marginal Condition", "0.48" ]
+, [ "row-67x4.zdq5.9qze", "00000000-0000-0000-7F4F-913600C5455B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Exterior", "29", "Each", "Percent in Poor/Marginal Condition", "0.48" ]
+, [ "row-jy3x~737i-nmfa", "00000000-0000-0000-39E1-C3FD4378B09F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Building Structure", "29", "Each", "Percent in Poor/Marginal Condition", "0.38" ]
+, [ "row-rdm2-man2-hxkx", "00000000-0000-0000-1875-4C06C917E11C", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Electrical", "29", "Each", "Percent in Poor/Marginal Condition", "0.55" ]
+, [ "row-qjf8_jyda~kycq", "00000000-0000-0000-F764-FFE5919396B3", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Employee Facilities", "29", "Each", "Percent in Poor/Marginal Condition", "0.45" ]
+, [ "row-p452~cwrj-ntmw", "00000000-0000-0000-0E65-6ED632843FC6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "Maintenance Support Shops", "Heavy Shop Equipment", "29", "Each", "Percent in Poor/Marginal Condition", "0.31" ]
+, [ "row-typr~vp4m.qqig", "00000000-0000-0000-F351-C48ADFD30B1E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Shops and yards", "SIR Maintenance Shops", "Overall Rating", "2", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-fbj5_rk8h~hh3t", "00000000-0000-0000-DBA6-B018CDDA7B5C", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Roof", "38", "Each", "Percent in Poor/Marginal Condition", "0.29" ]
+, [ "row-y8s7-egyt-ik5v", "00000000-0000-0000-F90C-CBE74DBE9C2F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Boiler", "38", "Each", "Percent in Poor/Marginal Condition", "0.21" ]
+, [ "row-6uk2-kz5h-2sy2", "00000000-0000-0000-205D-A043BCF01F7E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Air Curtain", "31", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-c2x3.cwtk.xh64", "00000000-0000-0000-9D43-15047C9506CC", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Ventilation", "38", "Each", "Percent in Poor/Marginal Condition", "0.42" ]
+, [ "row-pdv9-xgin.2zu9", "00000000-0000-0000-3341-9E202E3F0A88", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Architectural/Structural", "38", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-yaej_ubny~3txi", "00000000-0000-0000-8866-F72DBE2903E2", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Electrical", "38", "Each", "Percent in Poor/Marginal Condition", "0.37" ]
+, [ "row-83qt-jsyp-r3ie", "00000000-0000-0000-7F06-90BE93DB0548", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Lighting", "38", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-m2ji_bjjq_akij", "00000000-0000-0000-934C-8346460C04E6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Elevator", "19", "Each", "Percent in Poor/Marginal Condition", "0.16" ]
+, [ "row-qqbn_njqf-qsj9", "00000000-0000-0000-CBC1-1F1014AA59ED", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Employee Facilities", "38", "Each", "Percent in Poor/Marginal Condition", "0.39" ]
+, [ "row-ygx5.962t.fazv", "00000000-0000-0000-5D90-719888FF3968", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Admin Office", "38", "Each", "Percent in Poor/Marginal Condition", "0.45" ]
+, [ "row-qn9i.5643~fki6", "00000000-0000-0000-281C-44FBD63E7F22", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Emergency Generators", "31", "Each", "Percent in Poor/Marginal Condition", "0.42" ]
+, [ "row-wk34~5gvr-rszz", "00000000-0000-0000-3031-AC9C3E4876DB", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Fire Alarm and Suppression", "38", "Each", "Percent in Poor/Marginal Condition", "0.21" ]
+, [ "row-qngv_kcyj~7ztj", "00000000-0000-0000-7944-C424C2E2CAEB", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "Bus Wash", "29", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-chqk-qftb_jiy9", "00000000-0000-0000-5FB3-F5BC08604831", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Depot and bus maintenance facilities", "Depot and bus maintenance facilities", "All Rated Bus Depot/Facility Components", "452", "Each", "Percent in Poor/Marginal Condition", "0.31" ]
+, [ "row-bxw4.9gqd.g9pi", "00000000-0000-0000-AA7C-63B82C50D775", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Platform Canopies", "436", "Each", "Percent in Poor/Marginal Condition", "0.08" ]
+, [ "row-sh8d~tftc.vxtq", "00000000-0000-0000-E93A-08C96D3DE33E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Mezzanine Floors, Columns, Walls, and Ceilings", "3,246", "Each", "Percent in Poor/Marginal Condition", "0.1" ]
+, [ "row-zurr_v4ii-b98j", "00000000-0000-0000-3A96-6CE1AC791A99", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Platform Edges", "1,198", "Each", "Percent in Poor/Marginal Condition", "0.36" ]
+, [ "row-shw4_fkyi~zmkp", "00000000-0000-0000-0CA9-5FAB5F88F6AA", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Platform Floors, Columns, Walls, and Ceilings", "3,276", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-4rbd_grmc~esim", "00000000-0000-0000-37B2-62C288D48948", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Stairways", "5,502", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-qis6.axq9_5grr", "00000000-0000-0000-0CB4-883543655698", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Passive Ventilation Systems", "2,425", "Each", "Percent in Poor/Marginal Condition", "0.39" ]
+, [ "row-p4gx.bt7r_7ixq", "00000000-0000-0000-1CD1-6AA652EADB45", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Windscreens (above-ground station platform fencing)", "214", "Each", "Percent in Poor/Marginal Condition", "0.21" ]
+, [ "row-dfw9-5msq_dhki", "00000000-0000-0000-99C3-CA8ACD159EA7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Structures and Components", "Station Structures and Components", "Electrical Distribution Rooms", "916", "Each", "Percent in Poor/Marginal Condition", "0.15" ]
+, [ "row-sd32.emqd~pthu", "00000000-0000-0000-E208-137B9E0F2EDE", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Accessibility, Elevators, and Escalators", "Accessibility, Elevators, and Escalators", "Elevator - Hydraulic", "246", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-g5si.uxee_9k77", "00000000-0000-0000-5C8A-4B6E02669B25", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Accessibility, Elevators, and Escalators", "Accessibility, Elevators, and Escalators", "Elevator - Traction", "60", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-cb6s_n3ur_h3rs", "00000000-0000-0000-8174-1005864E60DD", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Accessibility, Elevators, and Escalators", "Accessibility, Elevators, and Escalators", "Escalator", "231", "Each", "Percent in Poor/Marginal Condition", "0.06" ]
+, [ "row-hqc6_9qpj.j58j", "00000000-0000-0000-2B2A-6389B3EB9FB1", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "Public Address/Customer Information Screens", "472", "Each", "Percent in Poor/Marginal Condition", "0.52" ]
+, [ "row-486p.j2ey-vjtr", "00000000-0000-0000-4241-1492F6483378", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "Help Points", "1,886", "Each", "Percent in Poor/Marginal Condition", "0.01" ]
+, [ "row-8spa_ffmj.xg8c", "00000000-0000-0000-7CEA-E10699A888FA", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "ADA Farecard Access System", "278", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-349v.m5qv~527t", "00000000-0000-0000-D70F-C3BDBBA56525", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "Fare Collection Vending Machines (transitioning to configurable vending machines and changing quantity for OMNY cards)", "1,720", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-u86m~7jv5-jnpr", "00000000-0000-0000-C91E-66C0FA411268", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "Fare Collection Electronic Turnstiles", "4,461", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-tie6.dvyu.g24r", "00000000-0000-0000-3094-F53090D4A206", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "Emergency Booth Communication System", "478", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-ej79_nm5s.iar8", "00000000-0000-0000-4875-B31B3BBDD8E8", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "NYCT Station CCTV (cameras, monitors, and recorders for emergency alarm, passenger ID, police security, platform edge, and crowd control)", "11,210", "Each", "Percent in Poor/Marginal Condition", "0.55" ]
+, [ "row-57qh~ns93.x6xz", "00000000-0000-0000-332D-4BECE3998D55", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Station Communication Systems", "Station Communication Systems", "SIR Station CCTV", "406", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-uhqg.t5en.25iv", "00000000-0000-0000-8072-BB66DA5529E3", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Line structures", "Elevated", "61", "Miles", "Percentage of Miles with High Defect Concentration", "0.08" ]
+, [ "row-9t39~vg6v.unh8", "00000000-0000-0000-3588-FFCEB9B7AFB8", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Line structures", "Viaduct", "9.3", "Miles", "Percentage of Miles with High Defect Concentration", "0.58" ]
+, [ "row-ppwp_nff6.ebqx", "00000000-0000-0000-CB3D-AA912A5FBBDD", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Line structures", "Open Cut", "10.6", "Miles", "Percentage of Miles with High Defect Concentration", "0.05" ]
+, [ "row-sfmp.h2sb~mhrn", "00000000-0000-0000-504D-DFBF2AA0E34A", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Line structures", "Subway", "155.4", "Miles", "Percentage of Miles with High Defect Concentration", "0.29" ]
+, [ "row-zpby_hs2p~nqmu", "00000000-0000-0000-5D6F-71DE861A2F8B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Line structures", "Embankment", "15.2", "Miles", "Percentage of Miles with High Defect Concentration", "0.02" ]
+, [ "row-k93b~t2t8.5ysn", "00000000-0000-0000-18C8-E80E439863B3", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "At-Grade", "12", "Miles", "Percent in Poor/Marginal Condition", "0.83" ]
+, [ "row-iad6-gu9s-iu5a", "00000000-0000-0000-3254-818273A82019", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "Bridge", "0.4", "Miles", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-ewpy.bg5h-taab", "00000000-0000-0000-6FC7-AFBC98897C43", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "Elevated", "1.1", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-k9di-z5ys~ssck", "00000000-0000-0000-B865-3FD15A60E177", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "Open Cut", "1", "Miles", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5pgi~k9xk_xujq", "00000000-0000-0000-FFF2-26F83BD0AE5E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "Tunnel", "0.2", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-uwa4.yspc~6btt", "00000000-0000-0000-2FBF-38C7FB5B82C2", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Staten Island Railway", "Fencing", "27", "Miles", "Percent in Poor/Marginal Condition", "0.08" ]
+, [ "row-eg5j-v9st.pam3", "00000000-0000-0000-DCB7-BC9CF311BD8A", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Elevated steel structure paint status", "Elevated steel structure paint status", "11.3", "Miles", "Percent in Poor/Marginal Condition", "0.18" ]
+, [ "row-v2s4-twsp~u4e9", "00000000-0000-0000-5677-6BD92BE26AF6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Elevated steel structure paint status", "Elevated steel structure paint status", "31.2", "Miles", "Percent in Good Condition", "0.49" ]
+, [ "row-qx2z.nn2v~ny6e", "00000000-0000-0000-5DDC-3FA932792B0B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line structures", "Elevated steel structure paint status", "Elevated steel structure paint status", "20.8", "Miles", "Percent Under Construction", "0.33" ]
+, [ "row-evac~z8q6-syki", "00000000-0000-0000-D78D-CB10D642F9B0", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "Mainline Revenue", "665", "Miles", "Percent with Remaining Life Less Than 6 Years", "0.11" ]
+, [ "row-zx3x.a289.enkb", "00000000-0000-0000-95C0-46719B440108", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "Non-Revenue", "39", "Miles", "Percent with Remaining Life Less Than 6 Years", "0.12" ]
+, [ "row-vqy6~tmbz.7dqm", "00000000-0000-0000-0CA2-18CDA182FB0B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "Yard", "102", "Miles", "Percent with Remaining Life Less Than 6 Years", "0.13" ]
+, [ "row-vgky-ivrt_vvmh", "00000000-0000-0000-BAC6-EE72CA1F192B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "Mainline Switches", "1,770", "Each", "Percent with Remaining Life Less Than 6 Years", "0.16" ]
+, [ "row-kb4y_nsec~d5i3", "00000000-0000-0000-9C11-74A6A0BD1C3D", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "Yard Switches", "874", "Each", "Percent with Remaining Life Less Than 6 Years", "0.11" ]
+, [ "row-8x9b~rijv-wc4n", "00000000-0000-0000-D6B9-A46B2D23555E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "SIR - Mainline", "29", "Miles", "Percent with Remaining Life Less Than 6 Years", "0.07" ]
+, [ "row-4x87~v48h_9yu4", "00000000-0000-0000-E891-560481F7C149", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "SIR - Non-Revenue", "3", "Miles", "Percent with Remaining Life Less Than 6 Years", "0.11" ]
+, [ "row-92y2-9mzq-w53m", "00000000-0000-0000-6CA3-11D86A209EE0", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Track", "Track", "SIR - Switches", "62", "Each", "Percent with Remaining Life Less Than 6 Years", "0.13" ]
+, [ "row-akez_e7rn-763y", "00000000-0000-0000-41B2-5B6D4199B1A6", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Mainline Signals", "763", "Miles", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-6npt~49jk~55sn", "00000000-0000-0000-0173-4A3FFB056123", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Mainline Interlockings", "183", "Each", "Percent in Poor/Marginal Condition", "0.23" ]
+, [ "row-s6mp_z2mv-wgcw", "00000000-0000-0000-ACB7-8B02C446FB59", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Yard Signals", "23", "Each", "Percent in Poor/Marginal Condition", "0.43" ]
+, [ "row-8kvp~marj.hbv4", "00000000-0000-0000-4198-7EA755B8660D", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Yard Interlockings", "20", "Each", "Percent in Poor/Marginal Condition", "0.3" ]
+, [ "row-zyqw-a69r.2vx4", "00000000-0000-0000-8DBD-10582D67E47F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "SIR - Signals", "31", "Miles", "Percent in Poor/Marginal Condition", "0.03" ]
+, [ "row-2r5a-v57d-f9pt", "00000000-0000-0000-8C61-6840D7A521E5", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "SIR - Interlockings", "14", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-6gep-wbgt.xqji", "00000000-0000-0000-F2EA-8BC92150916C", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Modernized signaling status", "529", "Miles", "Conventional Fixed Block", "0.69" ]
+, [ "row-krvz.vimy~wz2u", "00000000-0000-0000-D28D-F90B03ACA204", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Modernized signaling status", "52", "Miles", "Modernization complete", "0.07" ]
+, [ "row-etd2-8j5d~taix", "00000000-0000-0000-0DE1-705EB2C35DCA", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Signals and train control", "Signals and train control", "Modernized signaling status", "182", "Miles", "In Construction or to be Awarded by 2024", "0.24" ]
+, [ "row-z9c3_whfs_99ze", "00000000-0000-0000-FAAC-6D478E828AF0", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "Overall", "224", "Each", "Percent in Poor/Marginal Condition", "0.36" ]
+, [ "row-iysx~h5es~x7ed", "00000000-0000-0000-3DBE-6B0CE1B46CB7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "Transformers", "392", "Each", "Percent in Poor/Marginal Condition", "0.15" ]
+, [ "row-tb4q.suzb.7n6u", "00000000-0000-0000-A4F4-E353106B7A55", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "Rectifiers", "394", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-qh2z.gphh_u8tj", "00000000-0000-0000-2ED0-EF796663691E", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "HT Switchgear", "393", "Each", "Percent in Poor/Marginal Condition", "0.25" ]
+, [ "row-8jnt-5sen_rpjf", "00000000-0000-0000-9B0B-CD75E7BCFB1B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "DC Feeder Breakers", "1,461", "Each", "Percent in Poor/Marginal Condition", "0.18" ]
+, [ "row-aibz.eidf_ugdn", "00000000-0000-0000-645D-91B654B54197", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Substation", "Structural Elements", "224", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-zvbx.gvd4-ed3x", "00000000-0000-0000-2B0E-505E49FEA2C7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Circuit Breaker Houses", "Overall", "317", "Each", "Percent in Poor/Marginal Condition", "0.27" ]
+, [ "row-vnci_dzdz_b8b3", "00000000-0000-0000-31B3-FD7AFDAA4336", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Circuit Breaker Houses", "Breakers", "1,802", "Each", "Percent in Poor/Marginal Condition", "0.3" ]
+, [ "row-gcwx~9u82_kzzk", "00000000-0000-0000-E936-86644A2B6445", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "SCADA System Control Zones", "93", "Each", "Percent in Poor/Marginal Condition", "0.34" ]
+, [ "row-z5yi-qfyd~dvu9", "00000000-0000-0000-A025-9A0E2E9B0B5D", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "Emergency Alarm/Emergency Telephone", "2,627", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-fk36.tgcn-phm5", "00000000-0000-0000-8309-05EC1343643F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "SIR - Substations", "9", "Each", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-tv98~ntyx~zzps", "00000000-0000-0000-E0AC-D3D5DBEA4A0B", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "SIR - Substation Components", "119", "Each", "Percent in Poor/Marginal Condition", "0.45" ]
+, [ "row-5bfp~ykui.x38u", "00000000-0000-0000-21C0-1F582A537ECF", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "SIR - Circuit Breaker Houses", "4", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-x43b.wsa4-hp94", "00000000-0000-0000-FA7A-445CD66C8B08", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Traction power", "Traction power", "SIR - Circuit Breaker House Breakers", "13", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-msgc.sm7c_gjwk", "00000000-0000-0000-747F-C32354F7C9DD", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line equipment", "Line equipment", "Deep Wells", "23", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-ykvf-cfsh.aav5", "00000000-0000-0000-60E1-30FA85566B53", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line equipment", "Line equipment", "Fan Plants", "209", "Each", "Percent in Poor/Marginal Condition", "0.29" ]
+, [ "row-2xj2.axe6~cm9c", "00000000-0000-0000-7A4D-291573AB6E8F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line equipment", "Line equipment", "Pump Rooms (ROW)", "254", "Each", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-5bmk.zjc8~2yj7", "00000000-0000-0000-A74D-FFB56CD4167F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Line equipment", "Line equipment", "Tunnel Lighting", "440", "Miles", "Percent in Poor/Marginal Condition", "0.04" ]
+, [ "row-yyep-s5qn~vvrt", "00000000-0000-0000-B094-268C02F506C1", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "Fiber Cable", "896", "Miles", "Percent in Poor/Marginal Condition", "0.82" ]
+, [ "row-ijdr~ycim-a7w8", "00000000-0000-0000-535D-D96C461E91C2", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "Fiber Nodes (support transmission equipment)", "85", "Each", "Percent in Poor/Marginal Condition", "0.37" ]
+, [ "row-n885-5mp4-8nbv", "00000000-0000-0000-EA6E-E89821E0E164", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "Fiber Rings (supporting critical functions composed of interconnected nodes)", "7", "Each", "Percent in Poor/Marginal Condition", "0.43" ]
+, [ "row-62ms.uveu_f3kr", "00000000-0000-0000-37CA-D375BABB0278", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "Antenna Cable", "200", "Miles", "Percent in Poor/Marginal Condition", "0.21" ]
+, [ "row-ri55.czw8-xkhb", "00000000-0000-0000-8E26-CFB1B35D6E19", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "Copper Cable", "561", "Miles", "Percent in Poor/Marginal Condition", "0.65" ]
+, [ "row-d556~zgzk-ezdj", "00000000-0000-0000-2333-D0009F9F3548", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "UHF/VHF Radio Equipment", "464", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-vwr8-3cqv-g784", "00000000-0000-0000-BC16-4EEA18562213", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Backbone communication infrastructure", "SIR - Fiber Optic Cable", "145", "Miles", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-xh6v.4nam~6q38", "00000000-0000-0000-9243-DE5FEB8BB115", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Secondary communication infrastructure", "Communication Rooms", "478", "Each", "Percent in Poor/Marginal Condition", "0.27" ]
+, [ "row-9ux8~psfg.9fup", "00000000-0000-0000-D971-338090593BFD", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Secondary communication infrastructure", "Passenger Station Local Area Network (PSLAN)", "472", "Each", "Percent in Poor/Marginal Condition", "0.46" ]
+, [ "row-vhuz_9smx.2gxt", "00000000-0000-0000-B973-49A7A85A49C7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Secondary communication infrastructure", "Connection Oriented Ethernet (COE)", "1", "System", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-dw4n-8v4w~zama", "00000000-0000-0000-930E-F9B3CD6910CB", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Communication infrastructure and systems", "Secondary communication infrastructure", "Private Branch Exchange", "8", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-xrq8~rf5n-grw3", "00000000-0000-0000-C046-2A0889E59321", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Ballast Regulator", "4", "Each", "Percent Beyond Useful Life", "0.5" ]
+, [ "row-bn8a_ismc~dw2c", "00000000-0000-0000-E70D-9CEA4B6B7F25", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Crane Car-1 Ton", "17", "Each", "Percent Beyond Useful Life", "0.29" ]
+, [ "row-3bfd~am3k.84z7", "00000000-0000-0000-BA1E-BA341337B9E8", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Crane Car-10 Ton", "9", "Each", "Percent Beyond Useful Life", "0" ]
+, [ "row-dbf9~bg55.rt4z", "00000000-0000-0000-B0E5-2E82F5002939", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Crane Car-3 Ton", "12", "Each", "Percent Beyond Useful Life", "0" ]
+, [ "row-sftj_esvx_5n8i", "00000000-0000-0000-1268-095F5B3665A7", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "CWR Car", "32", "Each", "Percent Beyond Useful Life", "0.5" ]
+, [ "row-4uq7.3j37-4g9e", "00000000-0000-0000-B165-3AA9FEA46478", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "De-Icer Car", "8", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-fd3h~5w29~2bwi", "00000000-0000-0000-A7B4-5EEC2272B2BC", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Flat Car", "243", "Each", "Percent Beyond Useful Life", "0.31" ]
+, [ "row-d2m8-8iu2.3u2r", "00000000-0000-0000-CBF9-B3BB8B656E3D", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Hopper Car", "28", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-vaw6.2t4k_57n8", "00000000-0000-0000-EAC0-E6077D12185F", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Hose and Reach Car", "9", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-bern~tj5s~pzgy", "00000000-0000-0000-FBA8-7E44E13F4F69", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Locomotive, Diesel", "100", "Each", "Percent Beyond Useful Life", "0.17" ]
+, [ "row-5pmk-z979.6eqf", "00000000-0000-0000-A3B4-976ADF38D954", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Pump Car", "9", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-ydwd~eyci.rwai", "00000000-0000-0000-B447-CBDF1BF0A3B4", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Pump Flat Car", "2", "Each", "Percent Beyond Useful Life", "0" ]
+, [ "row-h2f4_ri4z.6cvf", "00000000-0000-0000-53EF-BED0F5969885", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Rail Adhesion", "3", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-fwj4-23ba.y85s", "00000000-0000-0000-225D-E9958558FB78", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Refuse Coll. Prop.", "18", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-cb56_bb3c~m326", "00000000-0000-0000-7900-67F3E8AAFC47", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Refuse Flat", "27", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-rprb~q2jc~v8wg", "00000000-0000-0000-EBD8-7D681D91A280", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Rider Car", "39", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-6ukr.stj2.hfgz", "00000000-0000-0000-7C0A-865EBE5C9E18", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Signal Supply Car", "2", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-r5nk_cskk~3c6z", "00000000-0000-0000-9ABC-D151C2A945FB", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Snow Removal Car", "5", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-n8s3-3vmx~8977", "00000000-0000-0000-82B7-F8F8BA6E8A69", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Snow Thrower", "12", "Each", "Percent Beyond Useful Life", "0.33" ]
+, [ "row-y85b~d4u6-3qnc", "00000000-0000-0000-D03B-8D8EEBF61F49", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Tamper", "4", "Each", "Percent Beyond Useful Life", "0" ]
+, [ "row-u5xm-deti-w3ub", "00000000-0000-0000-B251-5D44560570D9", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Tank Car", "3", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-p4eu~rjm8-2yqv", "00000000-0000-0000-7DF6-B11E469A24BF", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Track Geometry", "4", "Each", "Percent Beyond Useful Life", "0.5" ]
+, [ "row-bjgh.4tm6_yhc3", "00000000-0000-0000-5082-9599EBEB83EE", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Vacuum Train Car", "12", "Each", "Percent Beyond Useful Life", "0" ]
+, [ "row-aj68.yi4z.rbr8", "00000000-0000-0000-18E6-30B4024D071D", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Weld Car", "2", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-vu3d-gwtn.u9yn", "00000000-0000-0000-69CF-8F29E4CDC310", 0, 1707762102, null, 1707762102, null, "{ }", "NYCT", "Work trains and service vehicles", "Work trains and service vehicles", "Work Motor", "39", "Each", "Percent Beyond Useful Life", "1" ]
+, [ "row-8hp2.3ghi-a7jd", "00000000-0000-0000-7FA6-850049EA7560", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Conveyance (elevator and escalators)", "5", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-r65z~w6en_umip", "00000000-0000-0000-7DA9-196104B56D58", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Electrical (electrical - load, panels, light)", "16", "Each", "Percent in Poor/Marginal Condition", "0.31" ]
+, [ "row-hj3k.ixah-v5zm", "00000000-0000-0000-832C-CEFACBA552CA", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Shop Equipment (Generator/ATS/UPS)", "3", "Each", "Percent in Poor/Marginal Condition", "0.67" ]
+, [ "row-cza9.6mdz-gvzh", "00000000-0000-0000-9F91-89A762202D78", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Fire Protection, Security", "15", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-k5v8_fsh8~dx7p", "00000000-0000-0000-0F02-AE0E20D3AAD2", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "HVAC (heating, ventilation, and air conditioning)", "31", "Each", "Percent in Poor/Marginal Condition", "0.32" ]
+, [ "row-edx8_rytp-d48x", "00000000-0000-0000-7523-220059A39310", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Interior (interior walls, stairwells, restrooms)", "39", "Each", "Percent in Poor/Marginal Condition", "0.46" ]
+, [ "row-wtgc~fxd3.vs6f", "00000000-0000-0000-EEA1-F5AF9D3C83FF", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Plumbing (sanitary waste, drainage, etc.)", "16", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-hdti_yvsp_nxg8", "00000000-0000-0000-6766-74E1A2751DB8", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Shell (Roof, doors, windows, facade)", "62", "Each", "Percent in Poor/Marginal Condition", "0.34" ]
+, [ "row-casm-9tvw~u32j", "00000000-0000-0000-AC48-6AB77CFE237A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Employee Facility", "Site (roadways, parking lot, pedestrian bridge, platform, sidewalk, walkway, sidewalk/ramp, etc.)", "48", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-93w9_wvyb_y3q6", "00000000-0000-0000-8802-20768F0E4952", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Conveyance (elevator and escalators)", "3", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-ks69.48zw-u6w7", "00000000-0000-0000-2F16-E1EFB62AC286", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Electrical (electrical distribution, lighting, etc.)", "10", "Each", "Percent in Poor/Marginal Condition", "0.3" ]
+, [ "row-ss5w-z27g.jqth", "00000000-0000-0000-4D85-1AB2B71D8EC6", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Shop Equipment", "6", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-rzt5_b8k7-mxak", "00000000-0000-0000-57D2-EB295807502D", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Fire Protection, Security", "8", "Each", "Percent in Poor/Marginal Condition", "0.38" ]
+, [ "row-7v95.ghre.nqus", "00000000-0000-0000-8C7B-2129F71CCB39", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "HVAC (heating, ventilation, and air conditioning)", "19", "Each", "Percent in Poor/Marginal Condition", "0.05" ]
+, [ "row-cpds~tsun.sgxw", "00000000-0000-0000-79D1-7C3103E56604", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Interior (walls, restrooms, stairs)", "19", "Each", "Percent in Poor/Marginal Condition", "0.16" ]
+, [ "row-e2hb-ct72~7wf8", "00000000-0000-0000-DC92-95FC288BE05C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Plumbing (sanitary waste, drainage, etc.)", "10", "Each", "Percent in Poor/Marginal Condition", "0.2" ]
+, [ "row-fe7f.sbvk-5ph5", "00000000-0000-0000-780B-C227EB6460B3", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Shell (structure, floor, windows, doors, etc.)", "39", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-be8k~jciv~he9k", "00000000-0000-0000-7898-AC3CF3A2617B", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Site (sidewalks, ramps, parking lot, security fence)", "21", "Each", "Percent in Poor/Marginal Condition", "0.14" ]
+, [ "row-s8qp.ff94~a5ah", "00000000-0000-0000-921B-DF41744AD88B", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Shops", "Rolling Stock Support Equipment", "1,105", "Each", "Percent in Poor/Marginal Condition", "0.84" ]
+, [ "row-spr3_etvb.gqgp", "00000000-0000-0000-90EF-0C2C17CB0D62", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Electrical (electrical distribution, lighting, etc.)", "6", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-kywx_i5t3-tkgt", "00000000-0000-0000-BFAB-DCF7347FA33A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Fire Protection, Security", "3", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5p7u~4dsm_g23b", "00000000-0000-0000-6637-185CE4B4232A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "HVAC (Heating, ventilation, and air conditioning)", "12", "Each", "Percent in Poor/Marginal Condition", "0.25" ]
+, [ "row-ycfx-mqx5~khxb", "00000000-0000-0000-43F4-227B2920C0E7", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Interior (walls, doors, stairs)", "12", "Each", "Percent in Poor/Marginal Condition", "0.25" ]
+, [ "row-ifkg-fx9i-7upv", "00000000-0000-0000-8086-796A50C65948", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Plumbing (sanitary waste, drainage, etc.)", "6", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-x24k~pr2d.ita8", "00000000-0000-0000-83AB-131918213730", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Shell (structure, floor, windows, etc.)", "22", "Each", "Percent in Poor/Marginal Condition", "0.23" ]
+, [ "row-hgv5.fnwg.wcu6", "00000000-0000-0000-5704-7F78900357E0", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Site (roadways, misc. structures, etc.)", "13", "Each", "Percent in Poor/Marginal Condition", "0.23" ]
+, [ "row-tq36~qs5e.5eii", "00000000-0000-0000-B2A5-14B12840CC45", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Shops, yards, and facilities", "Yards", "Work Locomotives", "33", "Each", "Percent in Poor/Marginal Condition", "0.94" ]
+, [ "row-g4a2-8uci.kn73", "00000000-0000-0000-AEDF-007DF89AFB22", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "ADA Ramp", "152", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-7c5i.zmvz~96yt", "00000000-0000-0000-F479-B08D15291530", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Platform Substructure", "206", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-4nxr~fwwa_z6rc", "00000000-0000-0000-05D6-CB1E8114C903", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Platform Slabs", "206", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-g57f_htqr_crbc", "00000000-0000-0000-D571-C931AEA9C0ED", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Platform Joints", "206", "Each", "Percent in Poor/Marginal Condition", "0.15" ]
+, [ "row-eyrn_prqb-skyh", "00000000-0000-0000-71B6-E39779644511", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Platform Railing", "157", "Each", "Percent in Poor/Marginal Condition", "0.05" ]
+, [ "row-gyhc~qjnd_f25g", "00000000-0000-0000-C16C-E0A98A25D94E", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Platform Waiting Room", "29", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-9pxw.rsfp-symx", "00000000-0000-0000-C4D1-142CB0CD7248", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Canopy", "100", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-hmui_jam7~nfmp", "00000000-0000-0000-6B03-006EF3BA06AE", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Shelter", "182", "Each", "Percent in Poor/Marginal Condition", "0.06" ]
+, [ "row-ch77-p7yb.tbmn", "00000000-0000-0000-D9AB-EE726841695F", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Platform components", "Stairs", "751", "Each", "Percent in Poor/Marginal Condition", "0.05" ]
+, [ "row-xafq.58u2_vivi", "00000000-0000-0000-7C76-FEF7D7F04C15", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Elevators & Escalators", "Elevators", "50", "Each", "Percent in Poor/Marginal Condition", "0.32" ]
+, [ "row-x7qc~5p5x_ufd9", "00000000-0000-0000-6ABD-8C22814E5CB3", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Elevators & Escalators", "Escalators", "19", "Each", "Percent in Poor/Marginal Condition", "0.63" ]
+, [ "row-44fh-p7ad~cnte", "00000000-0000-0000-DB45-37DC8DB4B29C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Station Building Components", "Station Building Exterior", "88", "Each", "Percent in Poor/Marginal Condition", "0.03" ]
+, [ "row-fatk.jrer_syz5", "00000000-0000-0000-ECE8-30FADDE4E5BD", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Station Building Components", "Station Building Interior (doors, windows, floors, walls, restrooms, security systems, HVAC systems, fire suppression systems)", "88", "Each", "Percent in Poor/Marginal Condition", "0.01" ]
+, [ "row-wwqt.dwwv~jxsk", "00000000-0000-0000-5F9D-67F99C1C4374", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Paving", "Walkways/Sidewalks", "260", "Each", "Percent in Poor/Marginal Condition", "0.05" ]
+, [ "row-usk9.7psp.iunp", "00000000-0000-0000-6202-7ADA17F8F68C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Parking", "Parking (Surface Lot)", "151", "Each", "Percent in Poor/Marginal Condition", "0.2" ]
+, [ "row-ybmj_6ci3_kvaw", "00000000-0000-0000-EF2D-B565E9D9383C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Parking", "Parking Structure", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-i6es~mndz.vreq", "00000000-0000-0000-A528-7C777EED0567", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Stations", "Parking", "Parking (Garage)", "3", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-p9kj-i6eq_y7ek", "00000000-0000-0000-5B49-E9C91D0A14FA", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "AVPS Color Signs", "230", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-h5qv~cc7i~7rgx", "00000000-0000-0000-E8B0-F48FFFC24A02", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "Platform, Large, Indoor, Parking & Safety Signs", "506", "Each", "Percent in Poor/Marginal Condition", "0.99" ]
+, [ "row-pg2w.7ptf_pjkz", "00000000-0000-0000-FF01-62B4F0B0F213", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "Public Address", "122", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-gpre~gcay-3tti", "00000000-0000-0000-2561-BA82CEFA0B3A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "Security - Access Control Readers", "699", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-wctk~zj2p.xint", "00000000-0000-0000-1814-13FB18D8DC5F", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "Security - Cameras", "2,987", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-vczt.99ka~zsrr", "00000000-0000-0000-CD07-6C98754D2F13", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Passenger station public communications and security", "Passenger station public communications and security", "Security - Network Video Recorders", "292", "Each", "Percent in Poor/Marginal Condition", "0.68" ]
+, [ "row-ciuq.wymx-frzt", "00000000-0000-0000-5B42-D31DBD1D8E43", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Structural/Architectural (Concourse Ceilings, Floors, Walls, etc.)", "Structural Platforms (Platforms & Tactile Edging)", "149,800", "Square Feet", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-a2pt.7qpr_qipj", "00000000-0000-0000-F55E-3703C1DE8B38", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Structural/Architectural (Concourse Ceilings, Floors, Walls, etc.)", "Interior Finishes", "496,500", "Square Feet", "Percent in Poor/Marginal Condition", "0.1" ]
+, [ "row-kqyj_tydt-8gmh", "00000000-0000-0000-75D3-D0A8D2ED1C62", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Structural/Architectural (Concourse Ceilings, Floors, Walls, etc.)", "Architectural Elements (Canopy, Doors, Staircases, etc.)", "111", "Each", "Percent in Poor/Marginal Condition", "0.6" ]
+, [ "row-rhhi-d4h6~z4ht", "00000000-0000-0000-F545-C9095E17ECBA", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Structural/Architectural (Concourse Ceilings, Floors, Walls, etc.)", "Offices/Rooms", "15,235", "Square Feet", "Percent in Poor/Marginal Condition", "0.2" ]
+, [ "row-abui-xmbr_eza3", "00000000-0000-0000-4B62-403A00A8CD36", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Communications", "Communications (Station Announcement Control Board, Video Recording System)", "11", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-nf3e.jj34.ep4f", "00000000-0000-0000-DFCF-3AC46EECD144", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Communications", "Passenger Information Assets (Display Boards, Signs, Clocks, etc.)", "317", "Each", "Percent in Poor/Marginal Condition", "0.53" ]
+, [ "row-pjkq.tnca_hrxq", "00000000-0000-0000-8522-73704F6FB324", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Communications", "Passenger Information Systems", "3", "System", "Percent in Poor/Marginal Condition", "0.67" ]
+, [ "row-bidn~76bv.n8cy", "00000000-0000-0000-E205-B9B15269D850", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Fire and Life Safety", "Fire Protection Assets (FS Dampers, Fire Suppression)", "35", "Each", "Percent in Poor/Marginal Condition", "0.09" ]
+, [ "row-ad3v-r9ju.bqp2", "00000000-0000-0000-8B69-ECBCF8353486", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Fire and Life Safety", "Fire Protection Linear Assets (Standpipes)", "2.6", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-3h3b.gee6-6hgz", "00000000-0000-0000-8447-4C78E43AA009", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Fire and Life Safety", "Fire Protection System", "1", "System", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-fcjh-xua9-y22p", "00000000-0000-0000-6E89-CF9319F08ECF", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Electrical", "PSCI Lighting", "1", "System", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-2kr2.fi2s.j3k7", "00000000-0000-0000-5779-D244569D4C53", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Electrical", "Cables/Wiring", "149", "Miles", "Percent in Poor/Marginal Condition", "0.97" ]
+, [ "row-ymhh_ebm3~983b", "00000000-0000-0000-B45B-6E33DAB7AC89", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Electrical", "Equipment (Panels, Lighting Fixtures, Switches)", "6,386", "Each", "Percent in Poor/Marginal Condition", "0.91" ]
+, [ "row-mejy~5vx5~msvw", "00000000-0000-0000-22E0-1D495D406BBC", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical System", "2", "System", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-nyvs_vjfj_wm4k", "00000000-0000-0000-6A34-44D58ABC9583", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical Assets (Heaters, Boilers, Pumps, Generators, Lifts, etc.)", "68", "Each", "Percent in Poor/Marginal Condition", "0.08" ]
+, [ "row-9i4c_u5ez.bbyk", "00000000-0000-0000-336F-B0DBA68A939C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical - Elevators", "6", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-y7jf_pi6d~dewx", "00000000-0000-0000-B3F6-DE211976D244", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical - Escalators", "14", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-us5y_7h6y~2q2b", "00000000-0000-0000-5A92-532C6EC80533", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical/ HVAC System", "1", "System", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-jr7v~jh9h-kbe2", "00000000-0000-0000-64D4-3965378C1772", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Mechanical", "Mechanical/HVAC System Assets (Fans, Air Handlers, Fan Coil Units, etc.)", "166", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-tg3q_a54f-x2kv", "00000000-0000-0000-AA46-2FE86BDDF965", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Plumbing", "Pipes", "34", "Miles", "Percent in Poor/Marginal Condition", "0.65" ]
+, [ "row-qvf5.6k5d_wn3d", "00000000-0000-0000-3399-B1038EE10441", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Penn Station", "Plumbing", "Equipment (Ejector Pumps, Fixtures, Valves, etc.)", "337", "Each", "Percent in Poor/Marginal Condition", "0.84" ]
+, [ "row-3dhi.aakv~gjde", "00000000-0000-0000-D4E7-84503C81B2E4", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Undergrade Bridge (Structure)", "504", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-xrif.5n2a-tzpr", "00000000-0000-0000-7596-B6EEF03E96C6", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Undergrade Bridge (Waterproofing)", "409", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-9me8-98hw-urnh", "00000000-0000-0000-7CB7-9FC482CABA9B", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Undergrade Bridge (Painting)", "390", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-4dqx.hmss_cr2v", "00000000-0000-0000-E792-2B6518CEA369", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Overgrade Bridge", "56", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-6kdd_kr8m~iraw", "00000000-0000-0000-B6CB-479B9E992AC1", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Tunnel", "4", "Each", "Percent in Poor/Marginal Condition", "0.75" ]
+, [ "row-c7nb_3iz4~xwbk", "00000000-0000-0000-3158-6D1A2F1D7F3E", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Viaduct", "29", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-4hdp.ar5z_9rr5", "00000000-0000-0000-0175-E3FC448CADA1", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Retaining Wall", "103", "Each", "Percent in Poor/Marginal Condition", "0.18" ]
+, [ "row-cgyi-fhhz~api2", "00000000-0000-0000-6635-D4069C13540E", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Signal Tower", "86", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-55nk_54gz_jjhv", "00000000-0000-0000-0890-ACE48C8E3364", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Lattice Tower", "277", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-rcew~jfyf-j2at", "00000000-0000-0000-1C6C-3782CBB50995", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Line structures", "Line structures", "Culvert", "163", "Each", "Percent in Poor/Marginal Condition", "0.2" ]
+, [ "row-jg3h-uw2c~n55j", "00000000-0000-0000-26CD-70BB49E851F1", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Ballast", "500", "Track Miles", "Percent Due for Replacement", "0.35" ]
+, [ "row-gm4q-evbu_p3re", "00000000-0000-0000-CDA1-1F286ABF4EEE", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Grade Crossing", "417", "Each", "Percent Due for Replacement", "0.64" ]
+, [ "row-vvi9-r3fn.a4zp", "00000000-0000-0000-C643-7959A1B9F6FA", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Rail", "5,374,021", "Linear Feet", "Percent Due for Replacement", "0.16" ]
+, [ "row-dn4r-dkid.7h87", "00000000-0000-0000-762B-8AD7E3631509", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Switches", "916", "Each", "Percent Due for Replacement", "0.26" ]
+, [ "row-8zry_7p7v~pgce", "00000000-0000-0000-2E11-34ED5926D14C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Tie", "1,519,134", "Each", "Percent Due for Replacement", "0.2" ]
+, [ "row-xcum~54aq-n2e7", "00000000-0000-0000-149E-7CF3839C8570", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Track", "Track", "Construction Equipment", "372", "Each", "Percent Due for Replacement", "0.35" ]
+, [ "row-w4is~8u6y.asma", "00000000-0000-0000-1128-D35311E0B8D5", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Switch Machine", "970", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-g97n_iktq_arpd", "00000000-0000-0000-12A9-7A923F81B775", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Signal", "812", "Each", "Percent in Poor/Marginal Condition", "0.51" ]
+, [ "row-uif9-zhtw~hz7g", "00000000-0000-0000-1ED8-2A1ED9DD1452", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Supervisory and Control", "174", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-zxtf-t4sg.6dz6", "00000000-0000-0000-D93D-597BE44F5948", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Equipment Location - Huts and Cases", "1,374", "Each", "Percent in Poor/Marginal Condition", "0.67" ]
+, [ "row-hpsf-nbk9~gzr5", "00000000-0000-0000-37EE-0C0E921BE186", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Gate Mechanisms", "851", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-6uax~33a7.pawi", "00000000-0000-0000-E301-1D3772842F73", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Air System", "17", "Each", "Percent in Poor/Marginal Condition", "0.82" ]
+, [ "row-erka-b5ar_s33p", "00000000-0000-0000-9BCB-289A490DF0DC", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Battery", "1,088", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-uf3z_3phd.fa6g", "00000000-0000-0000-94CC-9DEB8FA60F45", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Cable", "7,979", "Each", "Percent in Poor/Marginal Condition", "0.66" ]
+, [ "row-9by2.ui4r.haup", "00000000-0000-0000-7973-AA72B37DA9CF", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Electronic Equipment", "283", "Each", "Percent in Poor/Marginal Condition", "0.18" ]
+, [ "row-mnzr_x799~i7zc", "00000000-0000-0000-D5E8-EC8090C86C68", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "WIUs (Wayside Interface Units � PTC Signal Component)", "171", "Each", "Percent in Poor/Marginal Condition", "0.24" ]
+, [ "row-vad8_medj_wa4f", "00000000-0000-0000-1B35-2CCFC8084ECE", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Signals", "Signals", "Transponders (PTC Signal Component)", "4,500", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-dftw.fptv~scdq", "00000000-0000-0000-C3CB-874258D1DA4D", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "Substation Overall (Age Based)", "129", "Each", "Percent in Poor/Marginal Condition", "0.52" ]
+, [ "row-5f7b.puhk_vrua", "00000000-0000-0000-47D7-AB09E5D4B025", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "Substation Components", "2,826", "Each", "Percent in Poor/Marginal Condition", "0.22" ]
+, [ "row-bg74.xkqi.xpz7", "00000000-0000-0000-9BD3-528525CA1A32", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "Electrical System (bridge electrical systems, tunnel and yard lighting, emergency generators, wayside power, communication rooms and huts, station building electrical systems, and station and platform lighting)", "13,217", "Each", "Percent in Poor/Marginal Condition", "0.52" ]
+, [ "row-as2n.k3z8.hjz6", "00000000-0000-0000-9E8D-CDCD874F57B4", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "High Tension Cable, Feeder, and Power Lines", "494", "Miles", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-uiqx_3hmh.hgfg", "00000000-0000-0000-B3FB-D60B0F41C57C", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "High Tension Equipment", "7,805", "Each", "Percent in Poor/Marginal Condition", "0.09" ]
+, [ "row-byir~cfp9_72nj", "00000000-0000-0000-640F-4B5F2878F576", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail Bracket", "42,098", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-axe7~9zu2.vwbc", "00000000-0000-0000-1F63-B2470279F0A3", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail Cable", "1,247,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-spdn_snrt-4ght", "00000000-0000-0000-637E-FDC660D356AD", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail Fiberglass Protection Board", "1,662,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0.48" ]
+, [ "row-nckf-qdq7~egh5", "00000000-0000-0000-FA48-390FBB59DFDE", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail Wood Protection Board", "15,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-trys.66vn.wa7k", "00000000-0000-0000-E8F0-1B317995FB62", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail Reactor", "115", "Each", "Percent in Poor/Marginal Condition", "0.66" ]
+, [ "row-9zym~rnte~ia5v", "00000000-0000-0000-AB4E-37DE863D1800", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail - Aluminum", "79,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-bjdm-ded3.ekkc", "00000000-0000-0000-0E03-DB2048D7E106", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail - Composite", "1,108,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-ms7c.r5uu_4rta", "00000000-0000-0000-006A-69C4C25E23E9", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Power", "Power", "3rd Rail - Conventional", "550,000", "Linear Feet", "Percent in Poor/Marginal Condition", "0.97" ]
+, [ "row-wiz6.k2ja_zyre", "00000000-0000-0000-CF48-4F7B069389B2", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Wooden Poles", "10,376", "Each", "Percent in Poor/Marginal Condition", "0.26" ]
+, [ "row-s2tm_spiz.5ngh", "00000000-0000-0000-BB7A-8806FCBB8502", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Fiber Optics (Current Standard)", "225", "Miles", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-pd62_ea27.a5x9", "00000000-0000-0000-3906-455B28DC344A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Cable - SM Fiber (Old Standard)", "635", "Miles", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5x7g.xge4_pzwn", "00000000-0000-0000-994B-9A719C64EA8B", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Cable - Copper", "720", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-ybes_kn2c.2jj3", "00000000-0000-0000-2D32-EBE90D7EB809", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Communication Support System", "5,796", "Each", "Percent in Poor/Marginal Condition", "0.28" ]
+, [ "row-pkn5~bfs8_7ngt", "00000000-0000-0000-9ADC-8C616538B332", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Outside Plant", "622", "Each", "Percent in Poor/Marginal Condition", "0.22" ]
+, [ "row-jeg7-5rdh~k8vm", "00000000-0000-0000-84EF-2D75EF688C19", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "PTC System", "4,178", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-2x4j~pqmz_6bp6", "00000000-0000-0000-477F-917719B44D56", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Radio Base Stations", "270", "Each", "Percent in Poor/Marginal Condition", "0.69" ]
+, [ "row-j76v~tarz~z98a", "00000000-0000-0000-3702-3E4FBF1B6B86", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Communication Huts", "36", "Each", "Percent in Poor/Marginal Condition", "0.15" ]
+, [ "row-aa3h-k2td-edmm", "00000000-0000-0000-C214-4A3BA254878A", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Radio Equipment", "3,465", "Each", "Percent in Poor/Marginal Condition", "0.39" ]
+, [ "row-8qxf~w9ks_38tg", "00000000-0000-0000-18EA-D13A8DC93585", 0, 1707762102, null, 1707762102, null, "{ }", "LIRR", "Communication Infrastructure", "Communication Infrastructure", "Radio Cable", "23", "Miles", "Percent in Poor/Marginal Condition", "0.57" ]
+, [ "row-vmha~x4hp_8deq", "00000000-0000-0000-EDB2-067C9E363E50", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Employee Facilities", "9", "Each", "Percent in Poor/Marginal Condition", "0.13" ]
+, [ "row-qccf~2gyh-jt6c", "00000000-0000-0000-AAC4-D342C0005E8F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Utilities", "8", "Each", "Percent in Poor/Marginal Condition", "0.38" ]
+, [ "row-uyhj~vppj-eguh", "00000000-0000-0000-DA49-9496BC5A50DF", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Yard Utilities", "36", "Each", "Percent in Poor/Marginal Condition", "0.42" ]
+, [ "row-8fpr-mhxp~54yt", "00000000-0000-0000-EDA5-C71BBD023AFD", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Plumbing and Drainage", "37", "Each", "Percent in Poor/Marginal Condition", "0.41" ]
+, [ "row-6hcn~cmt4_3kzw", "00000000-0000-0000-8D0C-37188EE5B712", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Fire Protection", "2", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-y6b9~xk7q_vag8", "00000000-0000-0000-848F-902B67325AC3", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "Yards and Yard Assets", "Yard Substation", "4", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5agb-mrja~fsgd", "00000000-0000-0000-09D7-37FBFD4D7828", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Employee Facilities", "12", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-dr84~cj89.y2uv", "00000000-0000-0000-A033-087CE6E1F90F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Air Curtain Doors", "6", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-w27d-7zpv_vpjj", "00000000-0000-0000-1FCF-F08C310F6353", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Building Exterior", "19", "Each", "Percent in Poor/Marginal Condition", "0.21" ]
+, [ "row-rumu~ghr5.vjhd", "00000000-0000-0000-5F7C-C11CFF75C16A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Building Utilities", "16", "Each", "Percent in Poor/Marginal Condition", "0.06" ]
+, [ "row-rwbb.kqz4-e5sv", "00000000-0000-0000-9CB7-443F729C09DE", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "HVAC", "19", "Each", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-h74a.zxtn-bkvj", "00000000-0000-0000-73CB-699FB721E0C8", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Roofs", "19", "Each", "Percent in Poor/Marginal Condition", "0.16" ]
+, [ "row-ti5y~4br5.4vmf", "00000000-0000-0000-6682-E4BB3ACE5F1C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Walls", "27", "Each", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-xm47-n45k_nuud", "00000000-0000-0000-3058-43952FC1E3CE", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Windows", "15", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-kfvv_95f3.rm8x", "00000000-0000-0000-4334-9649F2FFDF6C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOE Shops", "Equipment (e.g., car cranes, equipment lifts, wheel true)", "235", "Each", "Percent in Poor/Marginal Condition", "0.89" ]
+, [ "row-pxi9-r6ed~kn4e", "00000000-0000-0000-9F87-D9B8D88CFCF7", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Air Curtain Doors", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-c2xg.rt4p-raxd", "00000000-0000-0000-A781-79F8644231EA", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Building Exterior", "60", "Each", "Percent in Poor/Marginal Condition", "0.72" ]
+, [ "row-yj6c_2crj.hhme", "00000000-0000-0000-5B30-E76A33AD469C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Building Utilities", "65", "Each", "Percent in Poor/Marginal Condition", "0.68" ]
+, [ "row-xe2c_6298-yiwa", "00000000-0000-0000-509B-3F5C94B4D2E3", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Employee Facilities", "14", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-uhzf-fr7e.3j3a", "00000000-0000-0000-0F2A-D8C06614918D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "HVAC", "16", "Each", "Percent in Poor/Marginal Condition", "0.44" ]
+, [ "row-izw6-pihw-tq68", "00000000-0000-0000-63B6-91ACCDC16144", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Roofs", "59", "Each", "Percent in Poor/Marginal Condition", "0.71" ]
+, [ "row-5s39_93bx-pwhb", "00000000-0000-0000-6FE3-4DE13F696C2A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Walls", "96", "Each", "Percent in Poor/Marginal Condition", "0.75" ]
+, [ "row-b8sw.ykx7-epdr", "00000000-0000-0000-BDCD-A6190376958B", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Shops, yards, and facilities", "MOW Shops", "Windows", "48", "Each", "Percent in Poor/Marginal Condition", "0.67" ]
+, [ "row-vr63-rr4g.pm7k", "00000000-0000-0000-EDF8-C7A29FB20599", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Platforms", "134", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-h6yr.2e8v_dp2a", "00000000-0000-0000-69C6-09DE29253D24", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Canopies", "113", "Each", "Percent in Poor/Marginal Condition", "0.02" ]
+, [ "row-vtcz.jn6u.jxj8", "00000000-0000-0000-9B50-49D316492721", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Shelters", "124", "Each", "Percent in Poor/Marginal Condition", "0.02" ]
+, [ "row-5twf-8zfc~xr5x", "00000000-0000-0000-5476-FB30D82D36BE", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Elevators", "105", "Each", "Percent in Poor/Marginal Condition", "0.89" ]
+, [ "row-suje~xma8.jyrf", "00000000-0000-0000-632F-D1A0EDECAC8B", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Escalators", "2", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-eahr_ikeg.ya6r", "00000000-0000-0000-4AAB-6B260C5A2146", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Stairs", "340", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-grt5-eu7f-mwy4", "00000000-0000-0000-B891-73A0319BEF4F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "ADA Ramps", "83", "Each", "Percent in Poor/Marginal Condition", "0.02" ]
+, [ "row-7rcf-8cmk-23nc", "00000000-0000-0000-07B1-9B887BF63921", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Overpass", "50", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-qque~jjhe~m7m2", "00000000-0000-0000-F979-0FCF68ABA136", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Underpass", "12", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-fcqs.8cue_86jg", "00000000-0000-0000-F4F7-B81C6706CC10", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Station Building", "34", "Each", "Percent in Poor/Marginal Condition", "0.03" ]
+, [ "row-ckq8.5du8.n7ie", "00000000-0000-0000-51B1-3D303FAAD835", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Parking Lot", "72", "Each", "Percent in Poor/Marginal Condition", "0.17" ]
+, [ "row-esmw-c4nj~ff55", "00000000-0000-0000-78D6-F66D0D0A7666", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Passenger stations", "Passenger stations", "Parking Garage", "4", "Each", "Percent in Poor/Marginal Condition", "0.25" ]
+, [ "row-rb6f.cpt7.bcv8", "00000000-0000-0000-694F-A98BAC8423A8", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Office (head end) Public Address/Visual Information System (PA/VIS)", "2", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-6xtx.vtfc_dh5v", "00000000-0000-0000-FF02-AE4DAB045A9D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Big Board", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-g9b3_58kf_vvk2", "00000000-0000-0000-DA81-8DDE155E965E", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Arrival/Departure Boards", "72", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-62yh_puvr-bc8x", "00000000-0000-0000-0486-724133D2C241", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Gate Boards", "96", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-qxtb.9rkv~5eaq", "00000000-0000-0000-0FA2-DE5DF5FF2339", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Employee Displays", "17", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5w33~jmpn.523x", "00000000-0000-0000-B92C-02FEF7441063", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Station PA (speakers, ambient, sensing microphones)", "600", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-zkg6~262e.dh3q", "00000000-0000-0000-B066-87310BB114CC", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Grand Central Terminal Customer Communications Network/Cable Plant", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-i8cb_vuh9_cm9v", "00000000-0000-0000-06D0-BE2A005ACAC1", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "PA/VIS - Ticket Office", "30", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-k7dp~2ykf_4m7d", "00000000-0000-0000-62BE-ED7D2E2E16F9", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Station Digital Displays", "827", "Each", "Percent in Poor/Marginal Condition", "0.4" ]
+, [ "row-uge6~zc8j~dhat", "00000000-0000-0000-F8D3-A7A313F28C7D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Station PA (speakers, ambient sensing microphones)", "2,293", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-wb7k-di24.mqfx", "00000000-0000-0000-E820-4A2D9EF21C53", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Station Intercoms", "87", "Each", "Percent in Poor/Marginal Condition", "0.1" ]
+, [ "row-v46k.ji8d~uqix", "00000000-0000-0000-A281-9A08965614D9", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Station Communications Network/Cable Plant", "10", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-ye4e~c6bp~6k6e", "00000000-0000-0000-5CE5-313D318112A2", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Station Equipment (controllers, digital signal processors, amplifiers)", "87", "Each", "Percent in Poor/Marginal Condition", "0.8" ]
+, [ "row-8bic.v7rn_3ywg", "00000000-0000-0000-B0DA-4D18422D0528", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Security Head End, Workstations, Servers", "96", "Each", "Percent in Poor/Marginal Condition", "0.76" ]
+, [ "row-5nwt.iysz-4z9s", "00000000-0000-0000-FECA-3A67306224A4", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Security Cameras, Recorders and Server", "2,743", "Each", "Percent in Poor/Marginal Condition", "0.52" ]
+, [ "row-jasa.dwq2-8e8y", "00000000-0000-0000-D9B5-16AC88C1C108", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Public communications and security", "Public communications and security", "Security Switches (field data transfer links to head end security system)", "382", "Each", "Percent in Poor/Marginal Condition", "0.32" ]
+, [ "row-d93m.6ivc-gd2z", "00000000-0000-0000-0E15-2B3CCEDC9E09", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "GCT Building and Structures (building and block area structural supports and roof, elevated Park Avenue roadway(", "5", "Each", "Percent in Poor/Marginal Condition", "0.6" ]
+, [ "row-u9r7-8yxe.r3gt", "00000000-0000-0000-7546-C92A4274B477", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Platforms, Platform Edges, Platform Expansion Joints", "113", "Each", "Percent in Poor/Marginal Condition", "0.77" ]
+, [ "row-t4y7.f6rx_pi85", "00000000-0000-0000-83B3-A06BB58F4FF1", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Interior/Exterior Architecture Systems", "146", "Each", "Percent in Poor/Marginal Condition", "0.47" ]
+, [ "row-tem3.3c4z-uz8s", "00000000-0000-0000-33C8-08B2ABEE9A91", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Electrical Systems", "13", "Each", "Percent in Poor/Marginal Condition", "0.38" ]
+, [ "row-ru9f~8xcr~cjhv", "00000000-0000-0000-F677-4136102E9EC7", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Fire/Life Safety Systems (fire alarm, standpipe, sprinkler)", "10", "Each", "Percent in Poor/Marginal Condition", "0.27" ]
+, [ "row-gvwg.fxet-weji", "00000000-0000-0000-3F6E-72B91ED085F2", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "HVAC Systems", "25", "Each", "Percent in Poor/Marginal Condition", "0.48" ]
+, [ "row-jxi3-cxzs_e92p", "00000000-0000-0000-E3AD-555E5B2C04F8", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Plumbing Systems (domestic hot and cold water, sanitary, sewerage, drainage, steam)", "16", "Each", "Percent in Poor/Marginal Condition", "0.75" ]
+, [ "row-e6q3_w439.ny5f", "00000000-0000-0000-6E18-D8CBDF259E59", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Elevator (passenger, freight)", "32", "Each", "Percent in Poor/Marginal Condition", "0.19" ]
+, [ "row-k3d5_zris.ijsb", "00000000-0000-0000-16C8-9F9B7713145A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Terminal", "Grand Central Terminal", "Escalators (passenger)", "14", "Each", "Percent in Poor/Marginal Condition", "0.07" ]
+, [ "row-4aqd-dfmc-e8d3", "00000000-0000-0000-C440-D531A0F8C8AA", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Main Bridge Structural Framing", "6", "Structure", "Percent in Poor/Marginal Condition", "0.83" ]
+, [ "row-hgez-hwjt~pubs", "00000000-0000-0000-68A9-713BA399C7FF", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Structural Supports and Roof Slab", "4", "Structure", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-3uzs_ai7j-6fe6", "00000000-0000-0000-D7D6-E28C66FAEB50", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Expansion Joints", "19,045", "Feet", "Percent in Poor/Marginal Condition", "0.12" ]
+, [ "row-nyhw-vc27-2qnp", "00000000-0000-0000-49F3-8D575A22264F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Drainage System", "5", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-4j4h_ggff_jhe8", "00000000-0000-0000-83F5-181114741626", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Waterproofing System", "5", "Systems", "Percent in Poor/Marginal Condition", "0.8" ]
+, [ "row-ahxh.k4ui_nqgn", "00000000-0000-0000-BED0-4209A71B0A10", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Misc. Steel (gratings, drip pans, utility service carriers and supports)", "5", "Systems", "Percent in Poor/Marginal Condition", "0.8" ]
+, [ "row-ar63-s38a.xkkq", "00000000-0000-0000-C703-D2A799509849", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed HVAC System", "1", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-2wym.gbqz~7dh3", "00000000-0000-0000-2754-6D104748A3CF", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Electrical Systems", "3", "Systems", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-nmww.6bmx~hsts", "00000000-0000-0000-98A3-D2FBD68EAEB4", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Fire Standpipe Systems (Upper/Lower Levels)", "2", "Systems", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-xzj5_7ggx.gsd3", "00000000-0000-0000-3526-A11D98B12360", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Train Shed", "Train Shed Architectural", "15", "Systems", "Percent in Poor/Marginal Condition", "0.6" ]
+, [ "row-q4ps.5ccg~znga", "00000000-0000-0000-2CDE-13B43DA4839F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Tunnel", "Park Ave Tunnel Electrical Systems (tunnel lighting, tunnel alarm, third rail traction power)", "3", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-87tm.3tgx-5n8a", "00000000-0000-0000-E112-D4C454A2DB55", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Tunnel", "Park Avenue Tunnel Main Structural Framing (brick walls, arches, steel framing)", "1", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-ziki~fz4m.2p97", "00000000-0000-0000-85C5-553771C148F6", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Tunnel", "Park Avenue Tunnel Utility Bays (steel supports, concrete walls, infill)", "1", "Systems", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-s53i_jn7t.t8ig", "00000000-0000-0000-FAED-628496688513", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Tunnel", "Park Avenue Tunnel Ventilation Shafts and Gratings", "80", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-xvai~id2p~tprh", "00000000-0000-0000-F231-84D99A89F5A2", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Tunnel", "Park Ave Tunnel Structures (existing emergency stairs and exits at 59th, 72nd and 86th streets)", "3", "Sets", "Percent in Poor/Marginal Condition", "0.83" ]
+, [ "row-q4pa.jmss~832c", "00000000-0000-0000-551A-6B46FD974016", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Viaduct", "Viaduct Structure", "104", "Spans", "Percent in Poor/Marginal Condition", "0.77" ]
+, [ "row-5dh7.43a3.6mdi", "00000000-0000-0000-4DD4-5F79D64E523B", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Grand Central Artery", "Park Avenue Viaduct", "Viaduct Deck", "6,346", "Linear Feet", "Percent in Poor/Marginal Condition", "0.77" ]
+, [ "row-4t8x.6bkv_b36k", "00000000-0000-0000-4B56-95FA41FC0B6F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Line Structures", "Line Structures", "Undergrade Bridge", "181", "Each", "Percent in Poor/Marginal Condition", "0.46" ]
+, [ "row-g4yq_8s2y.32ep", "00000000-0000-0000-1503-690F4693B59F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Line Structures", "Line Structures", "Culvert - Undergrade", "189", "Each", "Percent in Poor/Marginal Condition", "0.65" ]
+, [ "row-8krb~ssbu_rkv9", "00000000-0000-0000-6FEA-AEFE05904B14", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Line Structures", "Line Structures", "Overhead Bridge", "313", "Each", "Percent in Poor/Marginal Condition", "0.23" ]
+, [ "row-femn.epv8-jdkk", "00000000-0000-0000-5FC8-7C4386736AD2", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Line Structures", "Line Structures", "Retaining Wall", "707", "Each", "Percent in Poor/Marginal Condition", "0.27" ]
+, [ "row-sgg6.cc4h~qqgt", "00000000-0000-0000-2BD4-7D4B571967D4", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Line Structures", "Line Structures", "Tunnels", "9", "Each", "Percent in Poor/Marginal Condition", "0.11" ]
+, [ "row-rj4h-faq4~6xyy", "00000000-0000-0000-F81E-42ACF6AF8BD4", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Grade Crossing", "49", "Each", "Percent in Poor/Marginal Condition", "0.35" ]
+, [ "row-pv8z~emrf-9wz2", "00000000-0000-0000-9EE5-0741CB90906D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Hi-Rail Work Equipment", "607", "Each", "Percent in Poor/Marginal Condition", "0.27" ]
+, [ "row-ku8v_darg.p3xf", "00000000-0000-0000-B17D-D93E171B2CA5", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Non-Revenue Rolling Stock", "202", "Each", "Percent in Poor/Marginal Condition", "0.36" ]
+, [ "row-9c6t_3v6z-6d8d", "00000000-0000-0000-B56C-A983C14528A0", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Rail", "1,004", "Rail miles", "Percent in Poor/Marginal Condition", "0.39" ]
+, [ "row-6zh9_52nb_rd4a", "00000000-0000-0000-6B60-EEFAB312E91D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Ties - Concrete", "468,174", "Each", "Percent in Poor/Marginal Condition", "0.39" ]
+, [ "row-s9xa.4jum~m6rm", "00000000-0000-0000-2143-3F18CA5B4F3A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Ties - Wood", "1,090,507", "Each", "Percent in Poor/Marginal Condition", "0.34" ]
+, [ "row-v9z5~dcua~2t6n", "00000000-0000-0000-0E6E-AA80EB620195", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Track", "Track", "Turnouts (switches)", "838", "Each", "Percent in Poor/Marginal Condition", "0.45" ]
+, [ "row-33cb-feep_c5qt", "00000000-0000-0000-0F4C-213FCBA0AF30", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal Systems - Hudson Line", "76", "Miles", "Percent in Poor/Marginal Condition", "0.93" ]
+, [ "row-yiwh~swsg.ixyf", "00000000-0000-0000-FBBF-0E3DEEBF9000", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal Systems - Harlem Line", "81", "Miles", "Percent in Poor/Marginal Condition", "0.52" ]
+, [ "row-y4ak.vfjs.5shg", "00000000-0000-0000-2184-01892DEF099A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal Systems - New Haven Line (NYS only)", "14", "Miles", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-6dxr~axfq-kae9", "00000000-0000-0000-6929-C7D45B981609", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal Systems - Port Jervis Line", "60", "Miles", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-3dpw.es5g_zba9", "00000000-0000-0000-009F-0D741433B2ED", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal CTC Office SCADA Power Control Centers assets", "1,445", "Each", "Percent in Poor/Marginal Condition", "0.78" ]
+, [ "row-h9e7_w5jv.32kd", "00000000-0000-0000-9349-054FA9DFAB8C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "PTC (office systems, onboard systems, field systems)", "3,825", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-6cj4.r63c_ts5i", "00000000-0000-0000-D94E-40952111EA82", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Grade Crossing Flashers and Gates", "37", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-h8kv_kr6p-q6cu", "00000000-0000-0000-3886-25E07EFA2799", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Signal Field Infrastructure (hot box detectors, dragging equipment detectors, block carriers, overlay equipment, etc.)", "1,821", "Each", "Percent in Poor/Marginal Condition", "0.49" ]
+, [ "row-yu4w_ewu3-dqbf", "00000000-0000-0000-D9A9-830159062FB2", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Signals", "Signals", "Switch Machines", "930", "Each", "Percent in Poor/Marginal Condition", "0.46" ]
+, [ "row-4akb.irua-gdye", "00000000-0000-0000-CF0C-C395B114AC89", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Third Rail Components (brackets, connectors, insulators, snow melters, etc.)", "291,065", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-dyka.fihz~etat", "00000000-0000-0000-2EFD-1DECE4ADBA5D", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Third Rail Linear Assets (rail)", "308", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-unta_uzb8.iber", "00000000-0000-0000-66AB-65D243498846", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "DC Substations", "55", "Each", "Percent in Poor/Marginal Condition", "0.89" ]
+, [ "row-5hp3~8nyb-azew", "00000000-0000-0000-767F-C0C61C6C6B17", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "DC Circuit Breaker Houses", "3", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-xdhb-isig~b5ha", "00000000-0000-0000-9D7F-37024C7F2FE7", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "DC Substation Auxiliary", "50", "Sets", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-q7fp_dj45.heex", "00000000-0000-0000-1ED2-F0B8EE33CF85", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "AC Substations", "6", "Each", "Percent in Poor/Marginal Condition", "0.83" ]
+, [ "row-sss6.ekxy~qu5t", "00000000-0000-0000-1276-584770FFC014", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "AC Substation Assets (switches, transformers, supply stations)", "20", "Each", "Percent in Poor/Marginal Condition", "0.95" ]
+, [ "row-4s75-gb2f-urqd", "00000000-0000-0000-DFA0-2225CDDE41C9", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Signal Power Substations", "6", "Each", "Percent in Poor/Marginal Condition", "0.83" ]
+, [ "row-rasv~vcnt~jar2", "00000000-0000-0000-EFBB-A6623F16308C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Signal Power Assets (transformers, switches, back-up generators)", "301", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-eizu-m8jm-3z4y", "00000000-0000-0000-0265-135BF035F24A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Signal Power Cable", "186", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-hm5w_zgma_phz9", "00000000-0000-0000-BC48-2226F3D33AEA", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Cable Linear Assets", "567", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-nfgx~izbj-5m26", "00000000-0000-0000-18BE-334ED2178970", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Catenary", "36", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-5gi4~3dky~3ht5", "00000000-0000-0000-4570-5076AC8A9AE7", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Cable Plant Catenary Poles", "245", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-t25g-g5gb_gbti", "00000000-0000-0000-9235-937ABD3DE3DA", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Catenary Plant Assets (pulleys, balance assemblies, etc.)", "1,935", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-gx32~ympu-z42s", "00000000-0000-0000-13CC-49FAE783516B", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Transmission Assets", "692", "Each", "Percent in Poor/Marginal Condition", "0.95" ]
+, [ "row-phq9_87jn.26wh", "00000000-0000-0000-8B9F-6A0C87A56F02", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Transmission Bare Overhead Feeders (15kV)", "18", "Miles", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-xdsa-zikt.y537", "00000000-0000-0000-8D00-DEE8E9B31484", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Transmission Wood Poles", "1,400", "Each", "Percent in Poor/Marginal Condition", "0.79" ]
+, [ "row-ypjz-qhz3_wrtu", "00000000-0000-0000-17AE-F07C3F3E34B9", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Harlem River Lift Bridge Plant (control systems, motors, drives)", "17", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-kk8b~9na9~7k68", "00000000-0000-0000-5B8B-8A949259EBE7", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Stand-by-Power Assets", "66", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-gbyw_hrzz_z47a", "00000000-0000-0000-EF17-366C4FB9EF68", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Power", "Power", "Passenger Station Lighting Assets", "1,500", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-52cu-sc7f.m6su", "00000000-0000-0000-92F8-9DD856B2D92A", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Fiber Optic Transmission Equipment (node houses) and Local Fiber Connections to CILs, MLs, Substations, Passenger Stations", "970", "Each", "Percent in Poor/Marginal Condition", "0.85" ]
+, [ "row-c9ew-9xbc-98v7", "00000000-0000-0000-6B82-0AF8C1A26BAF", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Voice Radio Equipment", "7,268", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-4udk.fj7z_mw4f", "00000000-0000-0000-A707-C90E29283F7C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Voice Rado Cable", "100,000", "Feet", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-btwu.g6f2~eunm", "00000000-0000-0000-7CCF-DED82FF6FE3F", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Telephone Equipment", "118", "Each", "Percent in Poor/Marginal Condition", "1" ]
+, [ "row-xfyb.dcff_ijvt", "00000000-0000-0000-B34C-2C689AD49B91", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Uninterruptible Power Supply System", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-2h8p~bf6v-dvjd", "00000000-0000-0000-9C2F-5CD347C37946", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Wire/Fiber", "376", "Miles", "Percent in Poor/Marginal Condition", "0.12" ]
+, [ "row-xn4s-ztt6-y6fb", "00000000-0000-0000-DF32-B6B6E2EA6757", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "GCT Wire/Fiber", "208", "Segments", "Percent in Poor/Marginal Condition", "0.45" ]
+, [ "row-gw8m-d7b6_afj9", "00000000-0000-0000-02B7-4D8CD6B88457", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Construction Equipment", "10", "Each", "Percent in Poor/Marginal Condition", "0.5" ]
+, [ "row-br6z.kvzr~2x7g", "00000000-0000-0000-7BA9-DE0D2AA4340C", 0, 1707762102, null, 1707762102, null, "{ }", "MNR", "Communication infrastructure", "Communication infrastructure", "Employee Facilities", "15", "Each", "Percent in Poor/Marginal Condition", "0.2" ]
+, [ "row-kuub-ad2z.drdc", "00000000-0000-0000-A1A0-1FB62376A2D8", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Bronx-Whitestone Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.15" ]
+, [ "row-7hmz~rzu9_e8b3", "00000000-0000-0000-37C1-E1E5630376C8", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Bronx-Whitestone Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.03" ]
+, [ "row-6zd7-ijxb.cmr9", "00000000-0000-0000-A94B-5924E4159691", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Bronx-Whitestone Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.09" ]
+, [ "row-t9dd-43es-ybmj", "00000000-0000-0000-E3CA-78811DB8F893", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Bronx-Whitestone Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.29" ]
+, [ "row-bs6c_8qa3~nn3n", "00000000-0000-0000-CFD6-44A8F2C966A8", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Robert F. Kennedy Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.06" ]
+, [ "row-gqcn~5aw3.3rih", "00000000-0000-0000-1086-58BA08B95BB4", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Robert F. Kennedy Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.15" ]
+, [ "row-3dqm~hsqd.whma", "00000000-0000-0000-764C-93B93F766D42", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Robert F. Kennedy Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.11" ]
+, [ "row-dma7.2hmj_nkei", "00000000-0000-0000-9351-60CBE8707661", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Robert F. Kennedy Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.39" ]
+, [ "row-d49h.7bjf~knz9", "00000000-0000-0000-4390-10A029A984DB", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Throgs Neck Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.13" ]
+, [ "row-vdwh.ncvt_7jva", "00000000-0000-0000-7049-895610688F51", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Throgs Neck Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.22" ]
+, [ "row-whvv-d5xy_2na8", "00000000-0000-0000-49ED-9388AEA25F79", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Throgs Neck Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.29" ]
+, [ "row-7r33-3p9h~k7xf", "00000000-0000-0000-D4E5-ABDCCA76D7AB", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Throgs Neck Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.5" ]
+, [ "row-bair-m9es.x7eh", "00000000-0000-0000-A124-503C20495B53", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Verrazzano-Narrow Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.31" ]
+, [ "row-ckfr~8c5n~qvrs", "00000000-0000-0000-B87E-58A38B474C08", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Verrazzano-Narrow Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.4" ]
+, [ "row-v7w6_fejs.7va4", "00000000-0000-0000-41AC-0B14C8F44E36", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Verrazzano-Narrow Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.32" ]
+, [ "row-36d7.jaem-8urk", "00000000-0000-0000-CD0F-9F69369627CD", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Verrazzano-Narrow Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.45" ]
+, [ "row-u7is.inwb-r7b9", "00000000-0000-0000-3843-E4099575BC21", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Henry Hudson Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.02" ]
+, [ "row-smxe_darz~sspq", "00000000-0000-0000-6130-88337C4917E8", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Henry Hudson Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.05" ]
+, [ "row-cgvn.h9je~sq28", "00000000-0000-0000-C7D5-9447773F2CFD", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Henry Hudson Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.11" ]
+, [ "row-285f~e6m4~ncig", "00000000-0000-0000-9D14-D52E92DFD371", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Henry Hudson Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.29" ]
+, [ "row-t2mx.ydjh_4sye", "00000000-0000-0000-10C5-233E414B11BC", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Cross Bay Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.12" ]
+, [ "row-besb-ak3g~m66y", "00000000-0000-0000-401F-153ADBE1BF8C", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Cross Bay Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.07" ]
+, [ "row-4srz-ipmj.58ka", "00000000-0000-0000-C223-55F719408409", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Cross Bay Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.09" ]
+, [ "row-6v86_fhte-qnka", "00000000-0000-0000-2E84-3E8D30E1731B", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Cross Bay Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.3" ]
+, [ "row-w6s7_iekc-uve8", "00000000-0000-0000-4F44-8B2103ECEF4B", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Marine Parkway Bridge", "Structures", "N/A", "N/A", "Needs update/replacement", "0.2" ]
+, [ "row-43vv.inji-ftsg", "00000000-0000-0000-E645-0865202B5055", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Marine Parkway Bridge", "Roadways and Decks", "N/A", "N/A", "Needs update/replacement", "0.13" ]
+, [ "row-fgji.wxvz~6x2d", "00000000-0000-0000-AE88-CE3A7C6340F5", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Marine Parkway Bridge", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.26" ]
+, [ "row-r3ur~dqif~smtv", "00000000-0000-0000-114E-3B4E2F03E2AD", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Bridges", "Marine Parkway Bridge", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.3" ]
+, [ "row-dxvs~nnqa-uhjp", "00000000-0000-0000-EF04-9624ABED3FD1", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Hugh L. Carey Tunnel", "Structures", "N/A", "N/A", "Needs update/replacement", "0.04" ]
+, [ "row-yk9c_w9ve-im4w", "00000000-0000-0000-61AB-CE18F243AAE6", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Hugh L. Carey Tunnel", "Roadways and Plazas", "N/A", "N/A", "Needs update/replacement", "0.47" ]
+, [ "row-iviz.byqa.pnhe", "00000000-0000-0000-2EDC-BCCA02A3D384", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Hugh L. Carey Tunnel", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.12" ]
+, [ "row-c3wx_9nw2-pp39", "00000000-0000-0000-E560-B6BF60D7DD09", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Hugh L. Carey Tunnel", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.4" ]
+, [ "row-f69z.2q43_54ru", "00000000-0000-0000-B4E1-76878B427DD7", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Battery Parking Garage", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.23" ]
+, [ "row-bbzr~rwgc_yqwg", "00000000-0000-0000-B009-A521447722DA", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Battery Parking Garage", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.39" ]
+, [ "row-aiqe_4tvr.39ep", "00000000-0000-0000-98E5-A49E4E4AFF72", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Queens Midtown Tunnel", "Structures", "N/A", "N/A", "Needs update/replacement", "0.02" ]
+, [ "row-eksj~2v9w.vzv4", "00000000-0000-0000-5D4B-828A46C67D2D", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Queens Midtown Tunnel", "Roadways and Plazas", "N/A", "N/A", "Needs update/replacement", "0.14" ]
+, [ "row-jbq6-x3qx_9xuq", "00000000-0000-0000-43A3-0A9B0F0FE97B", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Queens Midtown Tunnel", "Utilities", "N/A", "N/A", "Needs update/replacement", "0.14" ]
+, [ "row-f6se_ibrn~c24r", "00000000-0000-0000-B9A9-B1CEE9042C3A", 0, 1707762102, null, 1707762102, null, "{ }", "B&T", "Tunnels", "Queens Midtown Tunnel", "Buildings", "N/A", "N/A", "Needs update/replacement", "0.45" ]
+, [ "row-f5fi~5scs.4hsv", "00000000-0000-0000-4F8A-B18605883CED", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Building Structure", "26", "Each", "Percent in Poor/Marginal Condition", "0.04" ]
+, [ "row-frnm.n79n-umwp", "00000000-0000-0000-3B9A-2259A038DAD2", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Elevator", "2", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-hxnf_k5it~gfi2", "00000000-0000-0000-6EFF-965FA8F30A2C", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Generator", "8", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-hxwm-iaug_7ag8", "00000000-0000-0000-633C-F5FB485C684C", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "HVAC", "17", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-dstj.yfgv_n2fv", "00000000-0000-0000-3DC2-58B8BCF914CE", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Office", "1", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-5cf8_95c7_9egp", "00000000-0000-0000-5CCC-5B1C8005C6F2", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Roof", "17", "Each", "Percent in Poor/Marginal Condition", "0.06" ]
+, [ "row-yxns.xfab_mrxw", "00000000-0000-0000-8D2B-D768B37B0AE0", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Facilities", "Facilities", "Other", "5", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-zyjp~j43t-pwx7", "00000000-0000-0000-A638-0BE3F67E4465", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Communications", "Communications", "Emergency Operations Control System", "108", "Each", "Percent in Poor/Marginal Condition", "0.33" ]
+, [ "row-4tb7~pke5-r6e9", "00000000-0000-0000-DB34-105DCDEE0EC8", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Communications", "Communications", "Radio Equipment", "2,500", "Each", "Percent in Poor/Marginal Condition", "0" ]
+, [ "row-hjyc~9nb4.zxjm", "00000000-0000-0000-B2F5-A72517770BDA", 0, 1707762102, null, 1707762102, null, "{ }", "MTA PD", "Communications", "Communications", "Metropolitan Regional Radio System", "235", "Each", "Percent in Poor/Marginal Condition", "0" ]
+ ]
+}
